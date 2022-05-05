@@ -1,0 +1,68 @@
+/* This will eventually be built from a config and used via a collection of grid components */
+.grid {
+  display: grid;
+}
+
+.gap-x-0 {
+  grid-column-gap: 0;
+  column-gap: 0;
+}
+
+.mw-grid {
+  max-width: calc(1440px + 16vw);
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
+.col-span-8 {
+  grid-column: span 8 / span 8;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+/* Medium */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .col-span-12-md {
+    grid-column: span 12 / span 12;
+  }
+  .col-span-3-md {
+    grid-column: span 3 / span 3;
+  }
+  .col-end-3-md {
+    grid-column-end: 3;
+  }
+  .col-span-8-md {
+    grid-column: span 8 / span 8;
+  }
+
+  .col-span-4-md {
+    grid-column: span 4 / span 4;
+  }
+}
+
+/* Large */
+@media only screen and (min-width: 1024px) {
+  .col-span-12-lg {
+    grid-column: span 12 / span 12;
+  }
+  .col-span-3-lg {
+    grid-column: span 3 / span 3;
+  }
+  .col-end-3-lg {
+    grid-column-end: 3;
+  }
+  .col-span-8-lg {
+    grid-column: span 8 / span 8;
+  }
+  .col-span-4-lg {
+    grid-column: span 4 / span 4;
+  }
+}

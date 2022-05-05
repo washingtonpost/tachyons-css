@@ -1,0 +1,105 @@
+{
+  "name": "@washingtonpost/tachyons-css",
+  "version": "1.3.1",
+  "main": "dist/index.css",
+  "style": "dist/index.css",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist",
+    "src",
+    "src/variables.css"
+  ],
+  "scripts": {
+    "beta-publish": "make beta-publish",
+    "beta-version": "make beta-version",
+    "build": "make build",
+    "clean": "make clean",
+    "format": "prettier --check \"**/*.(js|css)\"",
+    "semantic-release": "semantic-release",
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPMedia/wapo-tachyons-css.git"
+  },
+  "author": "WPDS Support <wpds@washingtonpost.com>",
+  "dependencies": {
+    "@washingtonpost/color-tokens": "^0.2.0",
+    "@washingtonpost/icon-tokens": "^0.5.0",
+    "@washingtonpost/logo-tokens": "^1.8.0",
+    "@washingtonpost/motion-tokens": "^0.2.0",
+    "@washingtonpost/shadow-tokens": "^0.3.0",
+    "@washingtonpost/site-components": "^7.1.0",
+    "@washingtonpost/spacing-tokens": "^0.2.0",
+    "@washingtonpost/typography-tokens": "^0.5.0"
+  },
+  "peerDependencies": {
+    "@washingtonpost/color-tokens": "^0.2.0",
+    "@washingtonpost/icon-tokens": "^0.5.0",
+    "@washingtonpost/logo-tokens": "^1.8.0",
+    "@washingtonpost/motion-tokens": "^0.2.0",
+    "@washingtonpost/shadow-tokens": "^0.3.0",
+    "@washingtonpost/spacing-tokens": "^0.2.0",
+    "@washingtonpost/typography-tokens": "^0.5.0"
+  },
+  "devDependencies": {
+    "fuse.js": "^6.5.3",
+    "lodash.debounce": "^4.0.8",
+    "next": "^12.1.0",
+    "nextra": "^2.0.0-beta.5",
+    "nextra-theme-docs": "^2.0.0-alpha.28",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-window": "^1.8.6",
+    "react-window-infinite-loader": "^1.0.7",
+    "@semantic-release/changelog": "^6.0.1",
+    "cssnano": "^5.0.10",
+    "cssnano-preset-advanced": "^5.1.6",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "postcss-combine-media-query": "^1.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-nested-import": "^0.2.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.49.8",
+    "semantic-release": "^18.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "main",
+      "next",
+      "next-major",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "dist/index.css",
+              "label": "dist/index.css"
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

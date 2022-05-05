@@ -1,0 +1,82 @@
+/*
+
+Non-Standard Tachyons
+- Could be used on Spectrum Articles?
+
+*/
+
+.article-body a {
+  border-bottom: 1px solid var(--gray-lighter);
+}
+.interstitial:before {
+  content: "[";
+}
+.interstitial:after {
+  content: "]";
+}
+
+.list {
+  padding-left: 16px;
+}
+
+.pullquote {
+  font-size: var(--font-size-small);
+}
+.pullquote blockquote {
+  margin: 16px 0 0;
+  line-height: var(--line-height-medium);
+}
+.pullquote blockquote:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 4px;
+  background-color: var(--color-ui-black);
+}
+.dot-xxs-gray-dark:before {
+  background-color: var(--color-ui-gray-dark);
+}
+.dot-xxs-gray-dark:before,
+.dot-xxs-gray-darkest:before {
+  border-radius: 50%;
+  height: 4px;
+  width: 4px;
+  vertical-align: middle;
+  display: inline-block;
+  content: "";
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.dot-xxs-gray-darkest:before {
+  background-color: var(--color-ui-gray-darkest);
+}
+
+.headline-flex-basis {
+  flex-basis: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+  .pad-left-title {
+    margin-left: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .article-body h3,
+  .pullquote {
+    font-size: var(--font-size-medium);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .article-body h3,
+  .pullquote {
+    font-size: var(--font-size-medium-variant-three);
+  }
+}
+
+.current-color {
+  color: currentColor;
+}

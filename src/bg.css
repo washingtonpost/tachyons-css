@@ -1,0 +1,35 @@
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-right {
+  background-position: 100%;
+}
+
+.bg-success-green {
+  background-color: var(--success-green);
+}
+
+.bg-success-green-tint {
+  background-color: var(--success-green-tint);
+}
+
+.success-green {
+  color: var(--success-green);
+}
+
+.focus-bg-white-alpha-50:focus {
+  background-color: var(--white-alpha-50);
+}
+
+.hover-bg-white-alpha-50:hover {
+  background-color: var(--white-alpha-50);
+}
+
+.bg-clip-content {
+  background-clip: content-box;
+}

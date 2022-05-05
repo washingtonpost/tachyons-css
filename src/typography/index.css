@@ -1,0 +1,12 @@
+@import "./font-family.css";
+@import "./font-size.css";
+@import "./font-smoothing.css";
+@import "./font-style.css";
+@import "./font-weight.css";
+@import "./legacy.css";
+@import "./letter-spacing.css";
+@import "./line-height.css";
+@import "./list-style.css";
+@import "./text-transform.css";
+@import "./text-align.css";
+@import "./text-decoration.css";

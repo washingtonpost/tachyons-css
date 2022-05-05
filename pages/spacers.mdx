@@ -1,0 +1,81 @@
+import Head from "next/head";
+
+<Head>
+  <title>Spacers - WaPo Tachyons</title>
+</Head>
+
+# Spacers
+
+We have spacers for margin and padding. Nine step powers of four scale ranging from 4px to 80px. These follow the pattern `attribute+direction-size` for example, `pa-sm` or `ml-lg`.
+
+Space range
+
+| tachyon size suffix | px   |
+| ------------------- | ---- |
+| `-auto`             | auto |
+| `-0`                | 0px  |
+| `-xxs`              | 4px  |
+| `-xs`               | 8px  |
+| `-sm`               | 16px |
+| `-md`               | 24px |
+| `-lg`               | 32px |
+| `-lg-mod`           | 40px |
+| `-xl`               | 48px |
+| `-xxl`              | 64px |
+| `-xxl-mod`          | 80px |
+
+## Base:
+
+- `p` = padding
+- `m` = margin
+
+## Modifiers:
+
+- `a` = all
+- `h` = horizontal
+- `v` = vertical
+- `t` = top
+- `r` = right
+- `b` = bottom
+- `l` = left
+- `0` = none
+
+## Media Query Extensions:
+
+- -ns = not-small
+- -m = medium
+- -l = large
+
+Negative margins can be achieved using `-m` instead of `m`. For example, the class `.-ma-sm` adds a margin of `-16px` to all sides of an element.
+
+### Safe Area Spacers
+
+We have safe area spacers (Yes, they have media query extensions too). You can read more about them in the MDN docs. https://developer.mozilla.org/en-US/docs/Web/CSS/env(). A nice blurb from there
+
+> For example, a common issue solved by env() is that of device notifications covering up some of the app user interface. By positioning fixed elements using env() you can ensure that they display in a safe area of the viewport.
+
+Here is a code example.
+
+```css
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+```
+
+We also have `min-h-screen-safe` and `h-screen-safe` (with media query extensions).
+
+```css
+.min-h-screen-safe {
+  min-height: calc(
+    100vh - (env(safe-area-inset-top) + env(safe-area-inset-bottom))
+  );
+  min-height: -webkit-fill-available;
+}
+
+.h-screen-safe {
+  height: calc(
+    100vh - (env(safe-area-inset-top) + env(safe-area-inset-bottom))
+  );
+  height: -webkit-fill-available;
+}
+```

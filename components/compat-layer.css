@@ -1,0 +1,25 @@
+aside .hidden {
+  visibility: unset !important;
+}
+
+aside.hidden {
+  visibility: unset !important;
+}
+
+aside.fixed {
+  position: unset !important;
+}
+
+@media (min-width: 768px) {
+  aside.md\:sticky {
+    position: sticky !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nextra-search {
+  visibility: visible;
+}

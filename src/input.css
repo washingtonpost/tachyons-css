@@ -1,0 +1,13 @@
+.placeholder-color-inherit::placeholder {
+  color: inherit;
+}
+
+input[type="checkbox"].tos-checkbox {
+  -webkit-appearance: none;
+  align-self: baseline;
+}
+
+input[type="checkbox"].tos-checkbox:checked {
+  /* decided not to import variables to reduce the package size */
+  background-color: #000000;
+}

@@ -1,0 +1,42 @@
+/*  we have "gutter" classes they are used by our secondary nav component */
+.mr-neg-gutter {
+  margin-right: -5vw;
+}
+.mr-gutter {
+  margin-right: 5vw;
+}
+.ml-neg-gutter {
+  margin-left: -5vw;
+}
+.ml-gutter {
+  margin-left: 5vw;
+}
+
+/* we have viewport unit classes. they are used in our grid component */
+.pl-vw-sm {
+  padding-left: 5vw;
+}
+.pr-vw-sm {
+  padding-right: 5vw;
+}
+
+/* these should be removed soon */
+.pa-lgmod {
+  padding: var(--lg-mod);
+}
+
+.pl-lgmod {
+  padding-left: var(--lg-mod);
+}
+
+.pb-lgmod {
+  padding-bottom: var(--lg-mod);
+}
+
+.pr-lgmod {
+  padding-right: var(--lg-mod);
+}
+
+.pt-lgmod {
+  padding-top: var(--lg-mod);
+}

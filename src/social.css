@@ -1,0 +1,35 @@
+.facebook {
+  fill: var(--color-corporate-facebook-normal);
+}
+.facebook:hover {
+  background-color: var(--color-corporate-facebook-normal);
+  border-color: var(--color-corporate-facebook-normal);
+}
+.twitter {
+  fill: var(--color-corporate-twitter-normal);
+}
+.twitter:hover {
+  background-color: var(--color-corporate-twitter-normal);
+  border-color: var(--color-corporate-twitter-normal);
+}
+.mail {
+  fill: #d8070e /* this color doesn't exist in our tokens */;
+}
+.mail:hover {
+  background-color: #d8070e /* this color doesn't exist in our tokens */;
+  border-color: #d8070e /* this color doesn't exist in our tokens */;
+}
+.linkedin {
+  fill: var(--color-corporate-linkedin);
+}
+.linkedin:hover {
+  background-color: var(--color-corporate-linkedin);
+  border-color: var(--color-corporate-linkedin);
+}
+.pinterest {
+  fill: var(--color-corporate-pinterest);
+}
+.pinterest:hover {
+  background-color: var(--color-corporate-pinterest);
+  border-color: var(--color-corporate-pinterest);
+}

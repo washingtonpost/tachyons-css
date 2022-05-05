@@ -1,0 +1,102 @@
+/** sticky bar slide in */
+@keyframes sc-motion-utility-bar-slidein {
+  0% {
+    margin-left: -80px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+@keyframes sc-motion-opacity-fadein {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+:root {
+  --controlled-duration: 1500ms;
+}
+
+.fade-in-left {
+  animation: sc-motion-utility-bar-slidein 1s ease 0.5s forwards,
+    sc-motion-opacity-fadein 1s ease 1s forwards;
+}
+
+.transition-opacity {
+  transition-property: var(--motion-properties-opacity);
+}
+.transition-colors {
+  transition-property: var(--motion-properties-colors);
+}
+.transition-height {
+  transition-property: var(--motion-properties-height);
+}
+.transition-width {
+  transition-property: width, max-width, min-width;
+}
+.transition-font-size {
+  transition-property: var(--motion-properties-font-size);
+}
+.transition-display,
+.transition-flex {
+  transition-property: var(--motion-properties-display);
+}
+.transition-transform {
+  transition-property: transform;
+}
+.transition-all {
+  transition-property: all;
+}
+.transition-visibility {
+  transition-property: visibility;
+}
+.ease-out {
+  transition-timing-function: var(--motion-ease-out);
+}
+.ease-in {
+  transition-timing-function: var(--motion-ease-in);
+}
+.ease-in-out {
+  transition-timing-function: var(--motion-ease-in-out);
+}
+.duration-1000 {
+  transition-duration: 1s;
+}
+.duration-100 {
+  transition-duration: var(--motion-duration-100);
+}
+.duration-200 {
+  transition-duration: var(--motion-duration-200);
+}
+.duration-300 {
+  transition-duration: var(--motion-duration-300);
+}
+.duration-400 {
+  transition-duration: var(--motion-duration-400);
+}
+.duration-500 {
+  transition-duration: var(--motion-duration-500);
+}
+.duration-extra-slow {
+  transition-duration: var(--motion-duration-extra-slow);
+}
+.duration-slow {
+  transition-duration: var(--motion-duration-slow);
+}
+.duration-normal {
+  transition-duration: var(--motion-duration-normal);
+}
+.duration-fast {
+  transition-duration: var(--motion-duration-fast);
+}
+.duration-extra-fast {
+  transition-duration: var(--motion-duration-extra-fast);
+}
+.controlled-duration {
+  transition-duration: var(--controlled-duration);
+}

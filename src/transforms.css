@@ -1,0 +1,34 @@
+:root {
+  --sc-controlled-custom-transform: translate3d(0, 500px, 0);
+}
+
+.controlled-custom-transform {
+  transform: var(--sc-controlled-custom-transform);
+}
+
+.transform-3d-zeroed {
+  transform: translate3d(0, 0, 0);
+}
+
+.will-change-transform {
+  will-change: transform;
+}
+
+.-translate-y-100 {
+  transform: translateY(-100%);
+}
+.translate-y-100 {
+  transform: translateY(100%);
+}
+.-translate-y-50 {
+  transform: translateY(-50%);
+}
+.translate-y-0 {
+  transform: translateY(0%);
+}
+.-translate-x-100 {
+  transform: translateX(-100%);
+}
+.translate-x-100 {
+  transform: translateX(100%);
+}

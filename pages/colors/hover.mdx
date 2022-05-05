@@ -1,0 +1,66 @@
+import data from "./../../components/colors";
+
+import Head from "next/head";
+
+<Head>
+  <title>Hover Colors - WaPo Tachyons</title>
+</Head>
+
+# Hover Colors
+
+<div className="flex flex-column">
+  {data.hoverColor
+    .filter(i => !i.selector.includes("theme"))
+    .map(i => {
+      const className = i.selector.split(":hover")[0].split(".")[1];
+      const classSelector = `.${className}`;
+      return (
+        <div key={classSelector} className="pa-sm">
+          <div className="font--subhead font-bold">
+            {classSelector}{" "}
+            <span className="italic font-xs gray-dark">{i.comment}</span>
+          </div>
+          <div>
+            <code>{i.propertyValue}</code>
+          </div>
+          <div
+            className={`bold pa-md transition-colors duration-400 ease-in-out ${className} b `}
+          >
+            Hover Over me
+          </div>
+        </div>
+      );
+    })}
+</div>
+
+# Subscription Theme Hover Colors
+
+<p className="pl-sm mb-sm font-xxs">
+  You can apply the theme using <code>.subs-theme</code> class.
+</p>
+<div className="flex flex-column">
+  {data.hoverColor
+    .filter(i => i.selector.includes("theme"))
+    .map(i => {
+      const className = i.selector.split(":hover")[0];
+      const classSelector = `${className}`;
+      return (
+        <div key={classSelector} className="pa-sm">
+          <div className="font--subhead font-bold">
+            {classSelector}{" "}
+            <span className="italic font-xs gray-dark">{i.comment}</span>
+          </div>
+          <div className="offblack">
+            <code>{i.propertyValue}</code>
+          </div>
+          <div
+            className={`bold pa-md transition-colors duration-400 ease-in-out  ${className
+              .split(".")
+              .join(" ")} b `}
+          >
+            hover over me
+          </div>
+        </div>
+      );
+    })}
+</div>

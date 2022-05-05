@@ -1,0 +1,86 @@
+import Head from "next/head";
+
+<Head>
+  <title>Motion - WaPo Tachyons</title>
+</Head>
+
+# Motion Tachyons
+
+Note: If you would like to look up the values of these Tachyons, search for them on [Tachyons Search](/search)
+
+## Transition Property
+
+Utilities for controlling which CSS properties transition.
+
+We are following Tailwind's Transition Property for the most part. They are defined in "motion-tokens" library from the DS.
+
+We have the following utilities for transition property:
+
+- `transition-opacity`
+- `transition-colors`
+- `transition-height`
+- `transition-width`
+- `transition-font-size`
+- `transition-display` (uses the flex property)
+- `transition-transform`
+- `transition-all`
+- `transition-flex`
+- `transition-visibility`
+
+<blockquote>
+  <div className="transition-colors duration-500 ease-in-out bg-blue hover-bg-blue-dark white pa-md dib">
+    Hover me (disclaimer - this is not a button)
+  </div>
+</blockquote>
+
+---
+
+## Transition Timing Function
+
+Utilities for controlling the easing of CSS transitions.
+
+- `ease-out`
+- `ease-in`
+- `ease-in-out`
+
+<blockquote>
+  <div className="transition-colors duration-500 ease-in bg-blue hover-bg-blue-dark white pa-md dib">
+    Hover me with `ease-in`
+  </div>
+  <div className="transition-colors duration-500 ease-out bg-blue hover-bg-blue-dark white pa-md dib">
+    Hover me with `ease-out`
+  </div>
+  <div className="transition-colors duration-500 ease-in-out bg-blue hover-bg-blue-dark white pa-md dib">
+    Hover me with `ease-in-out`
+  </div>
+</blockquote>
+
+---
+
+## Transition Duration
+
+Utilities for controlling the duration of CSS transitions.
+
+- `duration-1000` (legacy class - might be deprecated in the future)
+- `duration-100`
+- `duration-200`
+- `duration-300`
+- `duration-400`
+- `duration-500`
+- `duration-extra-slow`
+- `duration-slow`
+- `duration-normal`
+- `duration-fast`
+- `duration-extra-fast`
+
+<blockquote>
+  <div className="transition-colors duration-100 ease-in-out bg-blue hover-bg-blue-dark white pa-md dib">
+    Hover me with `duration-100`
+  </div>
+  <div className="transition-colors duration-300 ease-in-out bg-blue hover-bg-blue-dark white pa-md dib">
+    Hover me with `duration-300`
+  </div>
+  <div className="transition-colors duration-extra-fast ease-in-out bg-blue hover-bg-blue-dark white pa-md dib">
+    Hover me with `duration-extra-fast`
+  </div>
+</blockquote>

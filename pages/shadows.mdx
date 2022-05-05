@@ -1,0 +1,31 @@
+import BoxShadows from "./../components/shadows";
+import Callout from "nextra-theme-docs/callout";
+
+import Head from "next/head";
+
+<Head>
+  <title>Shadows - WaPo Tachyons</title>
+</Head>
+
+## Box Shadows
+
+Shadow styles can be used for components like: toasts, drawers, modals, layers, tours, tooltips, pop-outs, cards, hover interactions or focus states.
+
+Card shadow naming convention and spread and offset logic are based off the [tachyon box shadow approach](https://tachyons.io/docs/themes/box-shadow/), with the exception of shadow 1 or card shadow.
+
+---
+
+## Shadows and mobile
+
+In certain cases it is desirable to not display shadows on smaller devices. For these cases we can use the `.shadow-[n]-ns` (n=1->6 are available as responsive classes). When applied, these classes will automatically only render a box-shadow at device widths greater than 768px.
+
+Similar classes are available for `m` and `l` device widths to only render a box-shadow at certain widths. The structure for these classes is:
+
+`.shadow-[n]-[size]`
+
+```
+medium (m): 768 - 1024px
+large (l): > 1024px
+```
+
+<BoxShadows />

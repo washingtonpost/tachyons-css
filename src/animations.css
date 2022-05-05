@@ -1,0 +1,16 @@
+/* Pulsing red dot animation */
+@keyframes sc-status-light-blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: sc-status-light-blink-animation 2s ease-in-out infinite alternate;
+}

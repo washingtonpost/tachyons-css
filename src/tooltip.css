@@ -1,0 +1,102 @@
+.tooltip {
+  border: 1px solid var(--gray-light);
+  transition: all 0.2s ease-out;
+}
+
+.dark a {
+  color: var(--blue-hover);
+}
+
+.subs a {
+  color: var(--subs-blue-hover);
+}
+
+@media only screen and (max-width: 767px) {
+  .tooltip.hideOnSmall {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.tooltip[data-popper-placement^="top"] > .arrow {
+  bottom: -6px;
+}
+
+.tooltip[data-popper-placement^="top"] > .arrow::before {
+  border-bottom: 1px solid var(--gray-light);
+  border-right: 1px solid var(--gray-light);
+}
+
+.tooltip[data-popper-placement^="bottom"] > .arrow {
+  top: -6.75px;
+}
+
+.tooltip[data-popper-placement^="bottom"] > .arrow::before {
+  border-top: 1px solid var(--gray-light);
+  border-left: 1px solid var(--gray-light);
+}
+
+.tooltip[data-popper-placement^="left"] > .arrow {
+  right: -6px;
+}
+
+.tooltip[data-popper-placement^="left"] > .arrow::before {
+  border-top: 1px solid var(--gray-light);
+  border-right: 1px solid var(--gray-light);
+}
+.tooltip[data-popper-placement^="right"] > .arrow {
+  left: -6.75px;
+}
+
+.tooltip[data-popper-placement^="right"] > .arrow::before {
+  border-bottom: 1px solid var(--gray-light);
+  border-left: 1px solid var(--gray-light);
+}
+
+.tooltip.subs {
+  border-color: var(--subs-blue-pale) !important;
+}
+
+.tooltip.subs .arrow::before {
+  border-color: var(--subs-blue-pale) !important;
+}
+
+.tooltip[data-popper-placement^="top"][data-as-popover="not-as-popover"]::before,
+.tooltip[data-popper-placement^="bottom"][data-as-popover="not-as-popover"]::before {
+  content: "";
+  background: transparent;
+  width: 100%;
+  height: calc(100% + 1rem);
+  position: absolute;
+  z-index: -1;
+}
+
+.tooltip[data-popper-placement^="top "][data-as-popover="not-as-popover"]::before {
+  top: 1rem;
+}
+
+.tooltip[data-popper-placement^="bottom"][data-as-popover="not-as-popover"]:before {
+  bottom: 1rem;
+}
+
+.arrow,
+.arrow::before {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  z-index: -10;
+}
+
+.arrow::before {
+  content: "";
+  transform: rotate(45deg);
+  background-color: var(--white);
+}
+
+.dark.arrow::before {
+  background-color: var(--gray-darkest);
+}
+
+.subs.arrow::before {
+  background-color: var(--subs-blue-pale);
+}

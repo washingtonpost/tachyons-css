@@ -1,0 +1,20 @@
+@import "./index.css";
+
+amp-sidebar {
+  margin-top: 60px;
+  background-color: var(--color-ui-gray-darkest);
+  width: 300px;
+  height: calc(100vh - 60px);
+}
+
+amp-accordion section[expanded] .sc-accordion-heading {
+  font-weight: var(--font-weight-heavy);
+}
+
+amp-accordion section[expanded] .sc-icon-chevron-up {
+  display: none;
+}
+
+amp-accordion section:not([expanded]) .sc-icon-chevron-down {
+  display: none;
+}

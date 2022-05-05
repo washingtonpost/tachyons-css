@@ -1,0 +1,23 @@
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/* tablet and up breakpoint */
+@media only screen and (min-width: 768px) {
+  .left-ns {
+    text-align: left;
+  }
+  .center-ns {
+    text-align: center;
+  }
+  .right-ns {
+    text-align: right;
+  }
+}

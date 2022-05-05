@@ -1,0 +1,60 @@
+.side-nav__submenu-arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 14px solid var(--color-ui-white);
+  top: 10px;
+  left: 236px;
+}
+.right-rail > .dn:last-of-type .bb,
+.right-rail > .dn:last-of-type .bb-hover:hover {
+  border-bottom: 0;
+}
+.header-nav {
+  height: 60px;
+  top: 0;
+  transition: top 0.3s ease-in;
+  -webkit-font-smoothing: antialiased;
+}
+.header-nav.nav-hide {
+  top: -60px;
+}
+.header-nav .btn {
+  height: 36px;
+}
+.header-nav .btn.btn-transparent {
+  background-color: transparent;
+  color: var(--color-ui-black);
+  border: none;
+}
+
+/* Nav buttons */
+.header-nav .btn {
+  background-color: var(--color-ui-black);
+  border-color: transparent;
+  font-size: 15px;
+  height: 36px;
+}
+
+.header-nav .header-nav-button-font-size {
+  font-size: 15px;
+  height: 36px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-nav .btn-gray {
+    background-color: var(--color-ui-gray-darkest);
+    border-color: var(--color-ui-gray-dark);
+  }
+}
+
+/* this is for gift button.  Needs to be re-evaluated when header updated */
+@media only screen and (min-width: 1200px) {
+  .header-nav .gift-offer .db-xl {
+    display: block;
+  }
+  .header-nav .gift-offer .flex-xl {
+    display: flex;
+  }
+}

@@ -1,0 +1,93 @@
+@import "@washingtonpost/color-tokens/dist/css/tokens.css";
+@import "@washingtonpost/spacing-tokens/dist/css/tokens.css";
+@import "@washingtonpost/shadow-tokens/dist/css/tokens.css";
+@import "@washingtonpost/motion-tokens/dist/css/tokens.css";
+
+:root {
+  /* colors */
+
+  --white-alpha-50: rgba(255, 255, 255, 0.5);
+  --gray-darkest-alpha-50: rgba(42, 42, 42, 0.5);
+  --gray-darkest-alpha-25: rgba(42, 42, 42, 0.25);
+
+  --white: var(--color-ui-white);
+  --offwhite: var(--color-ui-offwhite);
+
+  --black: var(--color-ui-black);
+  --offblack: var(--color-ui-offblack);
+
+  --gray-light: var(--color-ui-gray-light);
+  --gray-lighter: var(--color-ui-gray-lighter);
+  --gray-lightest: var(--color-ui-gray-lightest);
+  --gray: var(--color-ui-gray-base);
+  --gray-dark: var(--color-ui-gray-dark);
+  --gray-darker: var(--color-ui-gray-darker);
+  --gray-darkest: var(--color-ui-gray-darkest);
+
+  --blue: var(--color-brand-blue-normal);
+  --blue-hover: var(--color-brand-blue-bright);
+  --blue-dark: var(--color-brand-blue-dark);
+
+  --success-green: var(--color-ui-green-normal);
+  --success-green-tint: var(--color-ui-green-pale);
+
+  /** Serious Red Hue **/
+  --red: var(--color-ui-red-normal);
+  --red-dark: var(--color-ui-red-dark);
+  --red-bright: var(--color-ui-red-bright);
+  --red-pale: var(--color-ui-red-pale);
+
+  /** Subscription Blue **/
+  --subs-blue: var(--color-subscription-blue-normal);
+  --subs-blue-dark: var(--color-subscription-blue-dark);
+  --subs-blue-bright: var(--color-subscription-blue-bright);
+  --subs-blue-pale: var(--color-subscription-blue-pale);
+  /** Subscription Pink **/
+  --subs-pink: var(--color-subscription-pink-normal);
+  --subs-pink-dark: var(--color-subscription-pink-dark);
+  --subs-pink-bright: var(--color-subscription-pink-bright);
+  --subs-pink-pale: var(--color-subscription-pink-pale);
+  /** Subscription Green **/
+  --subs-green: var(--color-subscription-green-normal);
+  --subs-green-dark: var(--color-subscription-green-dark);
+  --subs-green-bright: var(--color-subscription-green-bright);
+  --subs-green-pale: var(--color-subscription-green-pale);
+  /** Subscription Navy **/
+  --subs-navy: var(--color-subscription-navy-normal);
+  --subs-navy-dark: var(--color-subscription-navy-dark);
+  --subs-navy-bright: var(--color-subscription-navy-bright);
+
+  /* spacer units */
+  --xxs: var(--size-spacing-xxs);
+  --xs: var(--size-spacing-xs);
+  --sm: var(--size-spacing-sm);
+  --md: var(--size-spacing-md);
+  --lg: var(--size-spacing-lg);
+  --lg-mod: var(--size-spacing-lg-mod);
+  --xl: var(--size-spacing-xl);
+  --xxl: var(--size-spacing-xxl);
+  --xxl-mod: var(--size-spacing-xxl-mod);
+
+  /* font weights */
+  --font-weight-heavy: 800;
+  --font-weight-medium: 700;
+  --font-weight-light: 300;
+
+  /* line heights */
+  --line-height-medium: 1.25;
+  --line-height-xl: 2;
+  --line-height-xxl: 2.4;
+
+  /* font sizes */
+  --font-size-xxxxs: 0.75rem;
+  --font-size-xxxs: 0.875rem;
+  --font-size-xxs: 1rem;
+  --font-size-xs: 1.125rem;
+  --font-size-small: 1.25rem;
+  --font-size-medium: 1.5rem;
+  --font-size-medium-variant-three: 2rem;
+
+  /* font families */
+  --font-family-georgia: georgia, Times New Roman, serif;
+  --font-family-franklin: Franklin, Arial, Helvetica, sans-serif;
+}

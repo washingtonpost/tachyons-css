@@ -1,0 +1,83 @@
+import data from "./../../components/colors";
+
+import Head from "next/head";
+
+<Head>
+  <title>Fill Colors - WaPo Tachyons</title>
+</Head>
+
+# Fill Colors
+
+<div className="flex flex-row flex-wrap mt-sm mb-md">
+  {data.hoverFillColor
+    .filter(i => !i.selector.includes("theme"))
+    .map(i => {
+      const className = i.selector.split(".")[1].replace(",", "");
+      const classSelector = `.${className}`;
+      return (
+        <div
+          key={classSelector}
+          className="pa-sm flex-1 flex align-center justify-between flex-column b bc-light-gray ma-sm"
+          style={{
+            width: 200,
+            height: 200
+          }}
+        >
+          <div className="font--xxs font-bold">{classSelector} </div>
+          <div>
+            <code>{i.propertyValue}</code>
+          </div>
+          <svg
+            className={`${className}`}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+          >
+            <title>fill svg</title>
+            <path d="M0 64 L64 64 L64 0 L0 0 Z" />
+          </svg>
+        </div>
+      );
+    })}
+</div>
+
+# Subscription Theme Fill Colors
+
+<p className="pl-sm mb-sm font-xxs">
+  You can apply the theme using <code>.subs-theme</code> class.
+</p>
+<div className="flex flex-row flex-wrap mt-sm mb-md">
+  {data.hoverFillColor
+    .filter(i => i.selector.includes("theme"))
+    .map(i => {
+      return (
+        <div
+          key={i.selector}
+          className="pa-sm flex-1 flex align-center justify-between flex-column b bc-light-gray ma-sm"
+          style={{
+            width: 200,
+            height: 200
+          }}
+        >
+          <div className="font-xxs font-bold">
+            {i.selector.split(",")[0]}{" "}
+
+          </div>
+          <div>
+            <code>{i.propertyValue}</code>
+          </div>
+          <svg
+            className={`${i.selector
+              .split(".")
+              .join(" ")
+              .replace(",", "")}`}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+          >
+            <title>fill svg</title>
+            <path d="M0 64 L64 64 L64 0 L0 0 Z" />
+          </svg>
+        </div>
+      );
+    })}
+
+</div>

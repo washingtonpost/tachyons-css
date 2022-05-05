@@ -1,0 +1,28 @@
+.hover-underline:hover,
+.underline {
+  text-decoration: underline;
+}
+.strike {
+  text-decoration: line-through;
+}
+.hover-none:hover {
+  text-decoration: none;
+}
+.decoration-none {
+  text-decoration: none;
+}
+.underline-offset-1 {
+  text-underline-offset: 1px;
+}
+.decoration-1 {
+  text-decoration-thickness: 1px;
+}
+.decoration-1-5 {
+  text-decoration-thickness: 1.5px;
+}
+.decoration-gold {
+  text-decoration-color: var(--color-opinion-gold-normal);
+}
+.decoration-gray-dark {
+  text-decoration-color: var(--color-ui-gray-dark);
+}
