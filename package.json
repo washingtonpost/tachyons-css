@@ -26,23 +26,23 @@
   },
   "author": "WPDS Support <wpds@washingtonpost.com>",
   "dependencies": {
-    "@washingtonpost/color-tokens": "^0.2.0",
-    "@washingtonpost/icon-tokens": "^0.5.0",
-    "@washingtonpost/logo-tokens": "^1.8.0",
-    "@washingtonpost/motion-tokens": "^0.2.0",
-    "@washingtonpost/shadow-tokens": "^0.3.0",
-    "@washingtonpost/site-components": "^7.1.0",
-    "@washingtonpost/spacing-tokens": "^0.2.0",
-    "@washingtonpost/typography-tokens": "^0.5.0"
+    "@washingtonpost/color-tokens": "latest",
+    "@washingtonpost/icon-tokens": "latest",
+    "@washingtonpost/logo-tokens": "latest",
+    "@washingtonpost/motion-tokens": "latest",
+    "@washingtonpost/shadow-tokens": "latest",
+    "@washingtonpost/spacing-tokens": "latest",
+    "@washingtonpost/typography-tokens": "latest",
+    "@washingtonpost/wpds-ui-kit": "^0.8.0"
   },
   "peerDependencies": {
-    "@washingtonpost/color-tokens": "^0.2.0",
-    "@washingtonpost/icon-tokens": "^0.5.0",
-    "@washingtonpost/logo-tokens": "^1.8.0",
-    "@washingtonpost/motion-tokens": "^0.2.0",
-    "@washingtonpost/shadow-tokens": "^0.3.0",
-    "@washingtonpost/spacing-tokens": "^0.2.0",
-    "@washingtonpost/typography-tokens": "^0.5.0"
+    "@washingtonpost/color-tokens": "latest",
+    "@washingtonpost/icon-tokens": "latest",
+    "@washingtonpost/logo-tokens": "latest",
+    "@washingtonpost/motion-tokens": "latest",
+    "@washingtonpost/shadow-tokens": "latest",
+    "@washingtonpost/spacing-tokens": "latest",
+    "@washingtonpost/typography-tokens": "latest"
   },
   "devDependencies": {
     "fuse.js": "^6.5.3",

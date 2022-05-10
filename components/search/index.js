@@ -4,8 +4,7 @@ import InfiniteLoader from "react-window-infinite-loader";
 import debounce from "lodash.debounce";
 import Fuse from "fuse.js";
 import list from "./search-data";
-import { TextField } from "@washingtonpost/site-components/core/text-field";
-import { Button } from "@washingtonpost/site-components/core/button";
+import { InputText as TextField, Button } from "@washingtonpost/wpds-ui-kit";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import theme from "prism-react-renderer/themes/nightOwl";
 
@@ -81,12 +80,12 @@ const Form = ({ onFormSubmit }) => {
     >
       <TextField
         size="default"
-        id="site-components-tachyons-search-query"
-        name="site-components-tachyons-search-query"
+        id="tachyons-search-query"
+        name="tachyons-search-query"
         type="text"
         labelText="Search for Tachyons. E.g. line height"
         aria-label="search"
-        handleInput={handleInput}
+        onChange={handleInput}
         className="mr-xs"
         value="line height"
       />

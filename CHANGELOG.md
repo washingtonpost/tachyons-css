@@ -1,9 +1,9 @@
-## [1.0.1](https://github.com/WPMedia/site-components-tachyons-css/compare/v1.0.0...v1.0.1) (2021-12-10)
+## [1.0.1](https://github.com/WPMedia/tachyons-css/compare/v1.0.0...v1.0.1) (2021-12-10)
 
 
 ### Bug Fixes
 
-* update readme ([0462c59](https://github.com/WPMedia/site-components-tachyons-css/commit/0462c599bc70ac022b4c72fa99d612f2cea91fe1))
+* update readme ([0462c59](https://github.com/WPMedia/tachyons-css/commit/0462c599bc70ac022b4c72fa99d612f2cea91fe1))
 
 # Change Log
 

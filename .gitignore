@@ -30,11 +30,6 @@ resources/dist/**
 /cypress/videos/**
 
 /packages/*/index.js
-packages/site-components/css
-packages/site-components/core
-
-packages/site-components/css/docs/**/data.js
-packages/site-components/css/build/data.js
 .storybook/backgrounds.js
 
 /public
@@ -42,8 +37,6 @@ packages/site-components/css/build/data.js
 lerna-debug.log
 storybook-static
 .nyc_output/
-packages/site-components/core
-packages/site-components/esm
 .next
 
 build-storybook.log
@@ -58,9 +51,6 @@ fuse-index.json
 docs/colors/data.js
 docs/spacers/data.js
 docs/tachyons/data.js
-
-packages/site-components/css/amp.js
-packages/site-components/css/index.js
 
 ca.*
 cert.*
