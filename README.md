@@ -1,6 +1,6 @@
-# Site Components Tachyons CSS Framework
+# WaPo Tachyons CSS Framework
 
-Site Components offers a CSS framework for rapid development with our design system standards in mind! Inspired by [tachyons](https://tachyons.io/) the framework is a utility class-based approach to writing minimal CSS. Check out the [docs](https://build.washingtonpost.com/tachyons) or the source code for sample usage.
+WaPo offers a CSS framework for rapid development with our design system standards in mind! Inspired by [tachyons](https://tachyons.io/) the framework is a utility class-based approach to writing minimal CSS. Check out the [docs](https://build.washingtonpost.com/tachyons) or the source code for sample usage.
 
 ## Usage
 
