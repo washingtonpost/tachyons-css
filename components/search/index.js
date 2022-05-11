@@ -4,9 +4,16 @@ import InfiniteLoader from "react-window-infinite-loader";
 import debounce from "lodash.debounce";
 import Fuse from "fuse.js";
 import list from "./search-data";
-import { InputText as TextField, Button } from "@washingtonpost/wpds-ui-kit";
+import { Button, InputText, styled } from "@washingtonpost/wpds-ui-kit";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import theme from "prism-react-renderer/themes/nightOwl";
+
+const StyledForm = styled("form", {
+  "& > div": {
+    width: "100%",
+    marginRight: "$100"
+  }
+});
 
 const CodeExample = ({ code }) => (
   <Highlight {...defaultProps} theme={theme} code={code.trim()} language="css">
@@ -71,26 +78,28 @@ const Form = ({ onFormSubmit }) => {
   }, []);
 
   return (
-    <form
-      className="flex flex-row items-center mb-sm"
+    <StyledForm
+      className="flex flex-row items-center mb-sm w-100"
       onSubmit={event => {
         event.preventDefault();
         handleSubmit();
       }}
     >
-      <TextField
-        size="default"
+      <InputText
         id="tachyons-search-query"
         name="tachyons-search-query"
-        type="text"
-        labelText="Search for Tachyons. E.g. line height"
+        type="search"
+        label="Search for Tachyons"
         aria-label="search"
-        onChange={handleInput}
-        className="mr-xs"
-        value="line height"
+        onChange={event => {
+          handleInput(event.target.value);
+        }}
+        className="text-input"
       />
-      <Button type="submit">Search</Button>
-    </form>
+      <Button type="submit" density="default">
+        Search
+      </Button>
+    </StyledForm>
   );
 };
 
@@ -137,7 +146,7 @@ export function TachyonsSearch() {
               itemSize={150}
               onItemsRendered={onItemsRendered}
               ref={ref}
-              width={800}
+              width={768}
               className="overflow-yscroll"
             >
               {({ index, style }) => {
