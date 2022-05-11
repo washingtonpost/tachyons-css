@@ -72,22 +72,21 @@ const Form = ({ onFormSubmit }) => {
 
   return (
     <form
-      className="flex flex-row items-center mb-sm"
+      className="flex flex-row items-center mb-sm w-100"
       onSubmit={event => {
         event.preventDefault();
         handleSubmit();
       }}
     >
       <TextField
-        size="default"
         id="tachyons-search-query"
         name="tachyons-search-query"
         type="text"
-        labelText="Search for Tachyons. E.g. line height"
+        label="Search for Tachyons"
         aria-label="search"
-        onChange={handleInput}
-        className="mr-xs"
-        value="line height"
+        onChange={event => {
+          handleInput(event.target.value);
+        }}
       />
       <Button type="submit">Search</Button>
     </form>
