@@ -22,7 +22,7 @@ Use to your heart's content ❤️:
 1. Make your changes.
 1. Please use conventional commits for commit messages. https://www.conventionalcommits.org/en/v1.0.0/. We use this to create the correct version for our package. Thank you.
 1. Submit your changes as a pull request or a fork.
-1. Ask for a review from a team mate and one person from the "@WPMedia/wpds-core" team.
+1. Ask for a review from a team mate and one person from the "@washingtonpost/wpds" team.
 1. A core team member will merge your code.
 1. A core team member will help you create a release.
 

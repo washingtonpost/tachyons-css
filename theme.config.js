@@ -1,9 +1,9 @@
 // theme.config.js
 export default {
   darkMode: true,
-  projectLink: "https://github.com/WPMedia/wapo-tachyons-css", // GitHub link in the navbar
-  docsRepositoryBase: "https://github.com/WPMedia/wapo-tachyons-css/blob/main", // base URL for the docs repository
-  titleSuffix: " - WaPo Tachyons", // title suffix for the page
+  projectLink: "https://github.com/washingtonpost/tachyons-css", // GitHub link in the navbar
+  docsRepositoryBase: "https://github.com/washingtonpost/tachyons-css/blob/main", // base URL for the docs repository
+  titleSuffix: " - WaPo Tachyons CSS", // title suffix for the page
   nextLinks: true,
   prevLinks: true,
   search: true,
