@@ -14,7 +14,7 @@ module.exports = withNextra({
         source: "/",
         destination: "/tachyons",
         basePath: false,
-        permanent: true
+        permanent: false
       }
     ];
   }
