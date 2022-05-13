@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/washingtonpost/tachyons-css/compare/v1.3.1...v1.3.2) (2022-05-13)
+
+
+### Bug Fixes
+
+* delete amp stylesheet ([37e03ab](https://github.com/washingtonpost/tachyons-css/commit/37e03aba658aa0c7c51370eb6920850e9b43a963))
+
 ## [1.0.1](https://github.com/WPMedia/tachyons-css/compare/v1.0.0...v1.0.1) (2021-12-10)
 
 
