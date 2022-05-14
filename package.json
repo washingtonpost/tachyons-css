@@ -64,7 +64,7 @@
     "postcss-nested-import": "^0.2.0",
     "prettier": "^2.4.1",
     "sass": "^1.49.8",
-    "semantic-release": "^18.0.1"
+    "semantic-release": "^19.0.2"
   },
   "publishConfig": {
     "access": "public"
