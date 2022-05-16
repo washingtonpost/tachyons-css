@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "stable"
+          node-version-file: '.nvmrc'
           registry-url: "https://registry.npmjs.org"
           cache: npm
       - name: Install dependencies
