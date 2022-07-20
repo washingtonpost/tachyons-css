@@ -1,3 +1,12 @@
+## [1.4.0](https://github.com/washingtonpost/tachyons-css/compare/v1.3.2...v1.4.0) (2022-07-20)
+
+### What's Changed
+* feat: adds width 50% tachyons by @jjalcantara in https://github.com/washingtonpost/tachyons-css/pull/5
+
+### New Contributors
+* @jjalcantara made their first contribution in https://github.com/washingtonpost/tachyons-css/pull/5
+
+
 ## [1.3.2](https://github.com/washingtonpost/tachyons-css/compare/v1.3.1...v1.3.2) (2022-05-13)
 
 
