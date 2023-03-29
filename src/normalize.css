@@ -1,9 +1,6 @@
 :root {
   font-size: 16px;
 }
-body {
-  font-family: var(--font-family-franklin);
-}
 
 body,
 figure,
@@ -20,12 +17,6 @@ h6 {
   margin: 0;
 }
 
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  font-size: 1rem;
-}
 
 button {
   display: inline-block;
@@ -51,28 +42,4 @@ blockquote {
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-}
-a {
-  text-decoration: none;
-  color: var(--link-color);
-}
-
-/* tablet breakpoint */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size: 1.25rem;
-  }
-}
-
-/* desktop breakpoint */
-@media only screen and (min-width: 1024px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
 }

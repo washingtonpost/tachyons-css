@@ -4,16 +4,8 @@ import InfiniteLoader from "react-window-infinite-loader";
 import debounce from "lodash.debounce";
 import Fuse from "fuse.js";
 import list from "./search-data";
-import { Button, InputText, styled } from "@washingtonpost/wpds-ui-kit";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import theme from "prism-react-renderer/themes/nightOwl";
-
-const StyledForm = styled("form", {
-  "& > div": {
-    width: "100%",
-    marginRight: "$100"
-  }
-});
 
 const CodeExample = ({ code }) => (
   <Highlight {...defaultProps} theme={theme} code={code.trim()} language="css">
@@ -78,14 +70,14 @@ const Form = ({ onFormSubmit }) => {
   }, []);
 
   return (
-    <StyledForm
+    <form
       className="flex flex-row items-center mb-sm w-100"
       onSubmit={event => {
         event.preventDefault();
         handleSubmit();
       }}
     >
-      <InputText
+      <input
         id="tachyons-search-query"
         name="tachyons-search-query"
         type="search"
@@ -94,12 +86,13 @@ const Form = ({ onFormSubmit }) => {
         onChange={event => {
           handleInput(event.target.value);
         }}
-        className="text-input"
+        className="text-input b pa-xs mr-sm"
+        placeholder="Search for Tachyons"
       />
-      <Button type="submit" density="default">
+      <button type="submit" className="btn">
         Search
-      </Button>
-    </StyledForm>
+      </button>
+    </form>
   );
 };
 

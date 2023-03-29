@@ -1,8 +1,5 @@
 // next.config.js
 const withNextra = require("nextra")({
-  experimental: {
-    turboMode: true
-  },
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.js"
 });
