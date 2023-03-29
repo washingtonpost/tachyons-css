@@ -1,11 +1,16 @@
-@import "./normalize.css";
+/*
+    nextra specific build
+
+    does not include normalize, shame, header, or tooltip
+*/
+/* @import "./normalize.css"; */
 @import "./variables.css";
 @import "./unstable-theme.css";
 @import "./borders.css";
 @import "./colors.css";
 @import "./bg.css";
 @import "./spacers/index.css";
-@import "./header.css";
+/* @import "./header.css"; */
 @import "./typography/index.css";
 @import "./btn.css";
 @import "./motion.css";
@@ -18,12 +23,12 @@
 @import "./grid.css";
 @import "./aspect-ratio.css";
 @import "./a11y.css";
-@import "./shame.css";
+/* @import "./shame.css"; */
 @import "./input.css";
 @import "./focus.css";
 @import "./print.css";
 @import "./overlay.css";
 @import "./transforms.css";
 @import "./animations.css";
-@import "./tooltip.css";
+/* @import "./tooltip.css"; */
 @import "./random.css";

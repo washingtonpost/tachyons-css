@@ -5,6 +5,43 @@ Non-Standard Tachyons
 
 */
 
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1rem;
+}
+body {
+  font-family: var(--font-family-franklin);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+/* tablet breakpoint */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+/* desktop breakpoint */
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
 .article-body a {
   border-bottom: 1px solid var(--gray-lighter);
 }

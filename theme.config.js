@@ -1,24 +1,25 @@
-// theme.config.js
 export default {
-  darkMode: true,
-  projectLink: "https://github.com/washingtonpost/tachyons-css", // GitHub link in the navbar
-  docsRepositoryBase: "https://github.com/washingtonpost/tachyons-css/blob/main", // base URL for the docs repository
-  titleSuffix: " - WaPo Tachyons CSS", // title suffix for the page
-  nextLinks: true,
-  prevLinks: true,
-  search: true,
-  darkMode: true,
-  footer: true,
-  footerText: `MIT ${new Date().getFullYear()} © Washington Post.`,
-  footerEditLink: `Edit this page on GitHub`,
+  project: {
+    link: "https://github.com/washingtonpost/tachyons-css"
+  },
+  docsRepositoryBase: "https://github.com/washingtonpost/tachyons-css/blob/main",
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - WaPo Tachyons CSS'
+    }
+  },
+  footer: {
+    text: <span>
+      MIT {new Date().getFullYear()} © <a href="https://washingtonpost.com" target="_blank">Washington Post</a>.
+    </span>,
+  },
   logo: (
-    <span className="font-sm font-light font--headline">
-      Tachyons from WaPo
+    <span className="font-md font-light font--headline">
+      WaPo Tachyons CSS
     </span>
   ),
   head: (
     <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         name="description"
         content="WaPo Tachyons – Washington Post CSS Framework"
