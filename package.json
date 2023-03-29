@@ -12,12 +12,9 @@
     "src/variables.css"
   ],
   "scripts": {
-    "beta-publish": "make beta-publish",
-    "beta-version": "make beta-version",
     "build": "make build",
     "clean": "make clean",
     "format": "prettier --check \"**/*.(js|css)\"",
-    "semantic-release": "semantic-release",
     "dev": "next dev"
   },
   "repository": {

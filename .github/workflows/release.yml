@@ -39,7 +39,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_PAT }}
       - run: |
           npm install
-          make production-release
+          npm run build
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PAT }}
         if: ${{ steps.release.outputs.release_created }}

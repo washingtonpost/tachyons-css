@@ -1,30 +1,3 @@
-clean:
-	@echo "clean those node_modules. make them shiny!"
-	npx lerna clean --yes
-	rm -rf node_modules
-
-beta-publish:
-	@echo "publish beta version"
-	npx lerna publish from-git --canary --preid beta --pre-dist-tag beta --npm-tag beta --yes
-
-beta-version:
-	@echo "set beta version"
-	npx lerna version --conventional-prerelease --preid=beta --sign-git-tag=beta --conventional-commits --no-changelog --yes
-
-main-publish:
-	@echo "publish main version"
-	npx lerna publish from-git --yes --no-git-reset
-
-main-version:
-	@echo "set main version"
-	npx lerna version --conventional-commits --yes --force-publish --create-release github
-
-production-release:
-	make main-version
-	npm run build
-	git checkout .
-	make main-publish
-
 # use tabs please
 build: spacers-tachyons typography-tachyons color-tachyons bundle next-build
 
