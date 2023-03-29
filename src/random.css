@@ -452,7 +452,8 @@
   /** sticky bar slide in */
   
   .focus-highlight:focus {
-    outline: -webkit-focus-ring-color auto 1px;
+    outline: auto 1px Highlight;
+    outline: auto 1px -webkit-focus-ring-color;
   }
   
   .will-change-height {
