@@ -7,6 +7,13 @@
 * @jjalcantara made their first contribution in https://github.com/washingtonpost/tachyons-css/pull/5
 
 
+## [1.5.1](https://github.com/washingtonpost/tachyons-css/compare/v1.5.0...v1.5.1) (2023-03-31)
+
+
+### Bug Fixes
+
+* include Firefox browser default color in focus-highlight tachyon's outline style [SRED-168] ([#13](https://github.com/washingtonpost/tachyons-css/issues/13)) ([ce5042c](https://github.com/washingtonpost/tachyons-css/commit/ce5042cf88b58f845971b08afc38aafacc674c3d))
+
 ## [1.5.0](https://github.com/washingtonpost/tachyons-css/compare/v1.4.0...v1.5.0) (2023-03-29)
 
 
