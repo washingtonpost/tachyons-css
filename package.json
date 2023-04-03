@@ -28,8 +28,7 @@
     "@washingtonpost/motion-tokens": "latest",
     "@washingtonpost/shadow-tokens": "latest",
     "@washingtonpost/spacing-tokens": "latest",
-    "@washingtonpost/typography-tokens": "latest",
-    "@washingtonpost/color-tokens": "latest"
+    "@washingtonpost/typography-tokens": "latest"
   },
   "peerDependencies": {
     "@washingtonpost/icon-tokens": "latest",
@@ -37,8 +36,7 @@
     "@washingtonpost/motion-tokens": "latest",
     "@washingtonpost/shadow-tokens": "latest",
     "@washingtonpost/spacing-tokens": "latest",
-    "@washingtonpost/typography-tokens": "latest",
-    "@washingtonpost/color-tokens": "latest"
+    "@washingtonpost/typography-tokens": "latest"
   },
   "devDependencies": {
     "cssnano": "^5.1.15",
