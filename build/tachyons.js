@@ -89,7 +89,7 @@ function generateColorClasses() {
       comment
     } = colorItem;
 
-    const value = `var(--wpds-colors-${valueName})`;
+    const value = valueName.startsWith("#") ? valueName : `var(--wpds-colors-${valueName})`;
 
     const cssComment = comment ? `/* ${comment} */` : "";
 

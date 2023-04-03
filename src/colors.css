@@ -1076,39 +1076,39 @@
 
 
 .bg-gold-dark {
-  background-color: var(--wpds-colors-gold200);
+  background-color: var(--wpds-colors-gold60);
 }
 
 .gold-dark {
-  color: var(--wpds-colors-gold200);
+  color: var(--wpds-colors-gold60);
 }
 
 .bc-gold-dark {
-  border-color: var(--wpds-colors-gold200);
+  border-color: var(--wpds-colors-gold60);
 }
 
 .fill-gold-dark {
-  fill: var(--wpds-colors-gold200);
+  fill: var(--wpds-colors-gold60);
 }
 
 .hover-fill-gold-dark:hover {
-  fill: var(--wpds-colors-gold200);
+  fill: var(--wpds-colors-gold60);
 }
 
 .hover-gold-dark:hover {
-  color: var(--wpds-colors-gold200);
+  color: var(--wpds-colors-gold60);
 }
 
 .hover-bg-gold-dark:hover {
-  background-color: var(--wpds-colors-gold200);
+  background-color: var(--wpds-colors-gold60);
 }
 
 .focus-bg-gold-dark:focus {
-  background-color: var(--wpds-colors-gold200);
+  background-color: var(--wpds-colors-gold60);
 }
 
 .focus-bc-gold-dark:focus {
-  border-color: var(--wpds-colors-gold200);
+  border-color: var(--wpds-colors-gold60);
 }
 
 
@@ -1261,407 +1261,407 @@
 
 
 .subs-theme.bg-pink {
-  background-color: var(--wpds-colors-#b0578c);
+  background-color: #b0578c;
 }
 
 .subs-theme.pink {
-  color: var(--wpds-colors-#b0578c);
+  color: #b0578c;
 }
 
 .subs-theme.bc-pink {
-  border-color: var(--wpds-colors-#b0578c);
+  border-color: #b0578c;
 }
 
 .subs-theme.fill-pink {
-  fill: var(--wpds-colors-#b0578c);
+  fill: #b0578c;
 }
 
 .subs-theme.hover-fill-pink:hover {
-  fill: var(--wpds-colors-#b0578c);
+  fill: #b0578c;
 }
 
 .subs-theme.hover-pink:hover {
-  color: var(--wpds-colors-#b0578c);
+  color: #b0578c;
 }
 
 .subs-theme.hover-bg-pink:hover {
-  background-color: var(--wpds-colors-#b0578c);
+  background-color: #b0578c;
 }
 
 .subs-theme.focus-bg-pink:focus {
-  background-color: var(--wpds-colors-#b0578c);
+  background-color: #b0578c;
 }
 
 .subs-theme.focus-bc-pink:focus {
-  border-color: var(--wpds-colors-#b0578c);
+  border-color: #b0578c;
 }
 
 
 .subs-theme.bg-pink-dark {
-  background-color: var(--wpds-colors-#853b67);
+  background-color: #853b67;
 }
 
 .subs-theme.pink-dark {
-  color: var(--wpds-colors-#853b67);
+  color: #853b67;
 }
 
 .subs-theme.bc-pink-dark {
-  border-color: var(--wpds-colors-#853b67);
+  border-color: #853b67;
 }
 
 .subs-theme.fill-pink-dark {
-  fill: var(--wpds-colors-#853b67);
+  fill: #853b67;
 }
 
 .subs-theme.hover-fill-pink-dark:hover {
-  fill: var(--wpds-colors-#853b67);
+  fill: #853b67;
 }
 
 .subs-theme.hover-pink-dark:hover {
-  color: var(--wpds-colors-#853b67);
+  color: #853b67;
 }
 
 .subs-theme.hover-bg-pink-dark:hover {
-  background-color: var(--wpds-colors-#853b67);
+  background-color: #853b67;
 }
 
 .subs-theme.focus-bg-pink-dark:focus {
-  background-color: var(--wpds-colors-#853b67);
+  background-color: #853b67;
 }
 
 .subs-theme.focus-bc-pink-dark:focus {
-  border-color: var(--wpds-colors-#853b67);
+  border-color: #853b67;
 }
 
 
 .subs-theme.bg-pink-bright {
-  background-color: var(--wpds-colors-#e3a7cb);
+  background-color: #e3a7cb;
 }
 
 .subs-theme.pink-bright {
-  color: var(--wpds-colors-#e3a7cb);
+  color: #e3a7cb;
 }
 
 .subs-theme.bc-pink-bright {
-  border-color: var(--wpds-colors-#e3a7cb);
+  border-color: #e3a7cb;
 }
 
 .subs-theme.fill-pink-bright {
-  fill: var(--wpds-colors-#e3a7cb);
+  fill: #e3a7cb;
 }
 
 .subs-theme.hover-fill-pink-bright:hover {
-  fill: var(--wpds-colors-#e3a7cb);
+  fill: #e3a7cb;
 }
 
 .subs-theme.hover-pink-bright:hover {
-  color: var(--wpds-colors-#e3a7cb);
+  color: #e3a7cb;
 }
 
 .subs-theme.hover-bg-pink-bright:hover {
-  background-color: var(--wpds-colors-#e3a7cb);
+  background-color: #e3a7cb;
 }
 
 .subs-theme.focus-bg-pink-bright:focus {
-  background-color: var(--wpds-colors-#e3a7cb);
+  background-color: #e3a7cb;
 }
 
 .subs-theme.focus-bc-pink-bright:focus {
-  border-color: var(--wpds-colors-#e3a7cb);
+  border-color: #e3a7cb;
 }
 
 
 .subs-theme.bg-pink-pale {
-  background-color: var(--wpds-colors-#fef4fa);
+  background-color: #fef4fa;
 }
 
 .subs-theme.pink-pale {
-  color: var(--wpds-colors-#fef4fa);
+  color: #fef4fa;
 }
 
 .subs-theme.bc-pink-pale {
-  border-color: var(--wpds-colors-#fef4fa);
+  border-color: #fef4fa;
 }
 
 .subs-theme.fill-pink-pale {
-  fill: var(--wpds-colors-#fef4fa);
+  fill: #fef4fa;
 }
 
 .subs-theme.hover-fill-pink-pale:hover {
-  fill: var(--wpds-colors-#fef4fa);
+  fill: #fef4fa;
 }
 
 .subs-theme.hover-pink-pale:hover {
-  color: var(--wpds-colors-#fef4fa);
+  color: #fef4fa;
 }
 
 .subs-theme.hover-bg-pink-pale:hover {
-  background-color: var(--wpds-colors-#fef4fa);
+  background-color: #fef4fa;
 }
 
 .subs-theme.focus-bg-pink-pale:focus {
-  background-color: var(--wpds-colors-#fef4fa);
+  background-color: #fef4fa;
 }
 
 .subs-theme.focus-bc-pink-pale:focus {
-  border-color: var(--wpds-colors-#fef4fa);
+  border-color: #fef4fa;
 }
 
 
 .subs-theme.bg-green {
-  background-color: var(--wpds-colors-#1c7c4e);
+  background-color: #1c7c4e;
 }
 
 .subs-theme.green {
-  color: var(--wpds-colors-#1c7c4e);
+  color: #1c7c4e;
 }
 
 .subs-theme.bc-green {
-  border-color: var(--wpds-colors-#1c7c4e);
+  border-color: #1c7c4e;
 }
 
 .subs-theme.fill-green {
-  fill: var(--wpds-colors-#1c7c4e);
+  fill: #1c7c4e;
 }
 
 .subs-theme.hover-fill-green:hover {
-  fill: var(--wpds-colors-#1c7c4e);
+  fill: #1c7c4e;
 }
 
 .subs-theme.hover-green:hover {
-  color: var(--wpds-colors-#1c7c4e);
+  color: #1c7c4e;
 }
 
 .subs-theme.hover-bg-green:hover {
-  background-color: var(--wpds-colors-#1c7c4e);
+  background-color: #1c7c4e;
 }
 
 .subs-theme.focus-bg-green:focus {
-  background-color: var(--wpds-colors-#1c7c4e);
+  background-color: #1c7c4e;
 }
 
 .subs-theme.focus-bc-green:focus {
-  border-color: var(--wpds-colors-#1c7c4e);
+  border-color: #1c7c4e;
 }
 
 
 .subs-theme.bg-green-dark {
-  background-color: var(--wpds-colors-#0b5733);
+  background-color: #0b5733;
 }
 
 .subs-theme.green-dark {
-  color: var(--wpds-colors-#0b5733);
+  color: #0b5733;
 }
 
 .subs-theme.bc-green-dark {
-  border-color: var(--wpds-colors-#0b5733);
+  border-color: #0b5733;
 }
 
 .subs-theme.fill-green-dark {
-  fill: var(--wpds-colors-#0b5733);
+  fill: #0b5733;
 }
 
 .subs-theme.hover-fill-green-dark:hover {
-  fill: var(--wpds-colors-#0b5733);
+  fill: #0b5733;
 }
 
 .subs-theme.hover-green-dark:hover {
-  color: var(--wpds-colors-#0b5733);
+  color: #0b5733;
 }
 
 .subs-theme.hover-bg-green-dark:hover {
-  background-color: var(--wpds-colors-#0b5733);
+  background-color: #0b5733;
 }
 
 .subs-theme.focus-bg-green-dark:focus {
-  background-color: var(--wpds-colors-#0b5733);
+  background-color: #0b5733;
 }
 
 .subs-theme.focus-bc-green-dark:focus {
-  border-color: var(--wpds-colors-#0b5733);
+  border-color: #0b5733;
 }
 
 
 .subs-theme.bg-green-bright {
-  background-color: var(--wpds-colors-#439e73);
+  background-color: #439e73;
 }
 
 .subs-theme.green-bright {
-  color: var(--wpds-colors-#439e73);
+  color: #439e73;
 }
 
 .subs-theme.bc-green-bright {
-  border-color: var(--wpds-colors-#439e73);
+  border-color: #439e73;
 }
 
 .subs-theme.fill-green-bright {
-  fill: var(--wpds-colors-#439e73);
+  fill: #439e73;
 }
 
 .subs-theme.hover-fill-green-bright:hover {
-  fill: var(--wpds-colors-#439e73);
+  fill: #439e73;
 }
 
 .subs-theme.hover-green-bright:hover {
-  color: var(--wpds-colors-#439e73);
+  color: #439e73;
 }
 
 .subs-theme.hover-bg-green-bright:hover {
-  background-color: var(--wpds-colors-#439e73);
+  background-color: #439e73;
 }
 
 .subs-theme.focus-bg-green-bright:focus {
-  background-color: var(--wpds-colors-#439e73);
+  background-color: #439e73;
 }
 
 .subs-theme.focus-bc-green-bright:focus {
-  border-color: var(--wpds-colors-#439e73);
+  border-color: #439e73;
 }
 
 
 .subs-theme.bg-green-pale {
-  background-color: var(--wpds-colors-#eff5f2);
+  background-color: #eff5f2;
 }
 
 .subs-theme.green-pale {
-  color: var(--wpds-colors-#eff5f2);
+  color: #eff5f2;
 }
 
 .subs-theme.bc-green-pale {
-  border-color: var(--wpds-colors-#eff5f2);
+  border-color: #eff5f2;
 }
 
 .subs-theme.fill-green-pale {
-  fill: var(--wpds-colors-#eff5f2);
+  fill: #eff5f2;
 }
 
 .subs-theme.hover-fill-green-pale:hover {
-  fill: var(--wpds-colors-#eff5f2);
+  fill: #eff5f2;
 }
 
 .subs-theme.hover-green-pale:hover {
-  color: var(--wpds-colors-#eff5f2);
+  color: #eff5f2;
 }
 
 .subs-theme.hover-bg-green-pale:hover {
-  background-color: var(--wpds-colors-#eff5f2);
+  background-color: #eff5f2;
 }
 
 .subs-theme.focus-bg-green-pale:focus {
-  background-color: var(--wpds-colors-#eff5f2);
+  background-color: #eff5f2;
 }
 
 .subs-theme.focus-bc-green-pale:focus {
-  border-color: var(--wpds-colors-#eff5f2);
+  border-color: #eff5f2;
 }
 
 
 .subs-theme.bg-navy {
-  background-color: var(--wpds-colors-#0c198a);
+  background-color: #0c198a;
 }
 
 .subs-theme.navy {
-  color: var(--wpds-colors-#0c198a);
+  color: #0c198a;
 }
 
 .subs-theme.bc-navy {
-  border-color: var(--wpds-colors-#0c198a);
+  border-color: #0c198a;
 }
 
 .subs-theme.fill-navy {
-  fill: var(--wpds-colors-#0c198a);
+  fill: #0c198a;
 }
 
 .subs-theme.hover-fill-navy:hover {
-  fill: var(--wpds-colors-#0c198a);
+  fill: #0c198a;
 }
 
 .subs-theme.hover-navy:hover {
-  color: var(--wpds-colors-#0c198a);
+  color: #0c198a;
 }
 
 .subs-theme.hover-bg-navy:hover {
-  background-color: var(--wpds-colors-#0c198a);
+  background-color: #0c198a;
 }
 
 .subs-theme.focus-bg-navy:focus {
-  background-color: var(--wpds-colors-#0c198a);
+  background-color: #0c198a;
 }
 
 .subs-theme.focus-bc-navy:focus {
-  border-color: var(--wpds-colors-#0c198a);
+  border-color: #0c198a;
 }
 
 
 .subs-theme.bg-navy-dark {
-  background-color: var(--wpds-colors-#0e1555);
+  background-color: #0e1555;
 }
 
 .subs-theme.navy-dark {
-  color: var(--wpds-colors-#0e1555);
+  color: #0e1555;
 }
 
 .subs-theme.bc-navy-dark {
-  border-color: var(--wpds-colors-#0e1555);
+  border-color: #0e1555;
 }
 
 .subs-theme.fill-navy-dark {
-  fill: var(--wpds-colors-#0e1555);
+  fill: #0e1555;
 }
 
 .subs-theme.hover-fill-navy-dark:hover {
-  fill: var(--wpds-colors-#0e1555);
+  fill: #0e1555;
 }
 
 .subs-theme.hover-navy-dark:hover {
-  color: var(--wpds-colors-#0e1555);
+  color: #0e1555;
 }
 
 .subs-theme.hover-bg-navy-dark:hover {
-  background-color: var(--wpds-colors-#0e1555);
+  background-color: #0e1555;
 }
 
 .subs-theme.focus-bg-navy-dark:focus {
-  background-color: var(--wpds-colors-#0e1555);
+  background-color: #0e1555;
 }
 
 .subs-theme.focus-bc-navy-dark:focus {
-  border-color: var(--wpds-colors-#0e1555);
+  border-color: #0e1555;
 }
 
 
 .subs-theme.bg-navy-bright {
-  background-color: var(--wpds-colors-#3846c1);
+  background-color: #3846c1;
 }
 
 .subs-theme.navy-bright {
-  color: var(--wpds-colors-#3846c1);
+  color: #3846c1;
 }
 
 .subs-theme.bc-navy-bright {
-  border-color: var(--wpds-colors-#3846c1);
+  border-color: #3846c1;
 }
 
 .subs-theme.fill-navy-bright {
-  fill: var(--wpds-colors-#3846c1);
+  fill: #3846c1;
 }
 
 .subs-theme.hover-fill-navy-bright:hover {
-  fill: var(--wpds-colors-#3846c1);
+  fill: #3846c1;
 }
 
 .subs-theme.hover-navy-bright:hover {
-  color: var(--wpds-colors-#3846c1);
+  color: #3846c1;
 }
 
 .subs-theme.hover-bg-navy-bright:hover {
-  background-color: var(--wpds-colors-#3846c1);
+  background-color: #3846c1;
 }
 
 .subs-theme.focus-bg-navy-bright:focus {
-  background-color: var(--wpds-colors-#3846c1);
+  background-color: #3846c1;
 }
 
 .subs-theme.focus-bc-navy-bright:focus {
-  border-color: var(--wpds-colors-#3846c1);
+  border-color: #3846c1;
 }
