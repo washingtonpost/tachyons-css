@@ -1,0 +1,1147 @@
+{
+  "color": {
+    "brand": {
+      "blue": {
+        "normal": {
+          "value": "blue80",
+          "comment": "our traditional brand color",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "blue80",
+            "comment": "our traditional brand color"
+          },
+          "name": "color-brand-blue-normal",
+          "attributes": {
+            "category": "color",
+            "type": "brand",
+            "item": "blue",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "brand",
+            "blue",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "blue40",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "blue40"
+          },
+          "name": "color-brand-blue-dark",
+          "attributes": {
+            "category": "color",
+            "type": "brand",
+            "item": "blue",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "brand",
+            "blue",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "blue200",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "blue200"
+          },
+          "name": "color-brand-blue-bright",
+          "attributes": {
+            "category": "color",
+            "type": "brand",
+            "item": "blue",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "brand",
+            "blue",
+            "bright"
+          ]
+        },
+        "pale": {
+          "value": "blue600",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "blue600"
+          },
+          "name": "color-brand-blue-pale",
+          "attributes": {
+            "category": "color",
+            "type": "brand",
+            "item": "blue",
+            "subitem": "pale"
+          },
+          "path": [
+            "color",
+            "brand",
+            "blue",
+            "pale"
+          ]
+        }
+      }
+    },
+    "ui": {
+      "white": {
+        "value": "gray700",
+        "filePath": "tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "gray700"
+        },
+        "name": "color-ui-white",
+        "attributes": {
+          "category": "color",
+          "type": "ui",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "ui",
+          "white"
+        ]
+      },
+      "offwhite": {
+        "value": "gray600",
+        "filePath": "tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "gray600"
+        },
+        "name": "color-ui-offwhite",
+        "attributes": {
+          "category": "color",
+          "type": "ui",
+          "item": "offwhite"
+        },
+        "path": [
+          "color",
+          "ui",
+          "offwhite"
+        ]
+      },
+      "black": {
+        "value": "gray0",
+        "filePath": "tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "gray0"
+        },
+        "name": "color-ui-black",
+        "attributes": {
+          "category": "color",
+          "type": "ui",
+          "item": "black"
+        },
+        "path": [
+          "color",
+          "ui",
+          "black"
+        ]
+      },
+      "offblack": {
+        "value": "gray20",
+        "filePath": "tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "gray20"
+        },
+        "name": "color-ui-offblack",
+        "attributes": {
+          "category": "color",
+          "type": "ui",
+          "item": "offblack"
+        },
+        "path": [
+          "color",
+          "ui",
+          "offblack"
+        ]
+      },
+      "gray": {
+        "lightest": {
+          "value": "gray500",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gray500"
+          },
+          "name": "color-ui-gray-lightest",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "gray",
+            "subitem": "lightest"
+          },
+          "path": [
+            "color",
+            "ui",
+            "gray",
+            "lightest"
+          ]
+        },
+        "lighter": {
+          "value": "gray400",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gray400"
+          },
+          "name": "color-ui-gray-lighter",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "gray",
+            "subitem": "lighter"
+          },
+          "path": [
+            "color",
+            "ui",
+            "gray",
+            "lighter"
+          ]
+        },
+        "light": {
+          "value": "gray300",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gray300"
+          },
+          "name": "color-ui-gray-light",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "gray",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "ui",
+            "gray",
+            "light"
+          ]
+        },
+        "base": {
+          "value": "gray200",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gray200"
+          },
+          "name": "color-ui-gray-base",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "gray",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "ui",
+            "gray",
+            "base"
+          ]
+        },
+        "dark": {
+          "value": "gray80",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gray80"
+          },
+          "name": "color-ui-gray-dark",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "gray",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "ui",
+            "gray",
+            "dark"
+          ]
+        },
+        "darker": {
+          "value": "gray60",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gray60"
+          },
+          "name": "color-ui-gray-darker",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "gray",
+            "subitem": "darker"
+          },
+          "path": [
+            "color",
+            "ui",
+            "gray",
+            "darker"
+          ]
+        },
+        "darkest": {
+          "value": "gray40",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gray40"
+          },
+          "name": "color-ui-gray-darkest",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "gray",
+            "subitem": "darkest"
+          },
+          "path": [
+            "color",
+            "ui",
+            "gray",
+            "darkest"
+          ]
+        }
+      },
+      "red": {
+        "normal": {
+          "value": "red100",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "red100"
+          },
+          "name": "color-ui-red-normal",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "red",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "ui",
+            "red",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "red80",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "red80"
+          },
+          "name": "color-ui-red-dark",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "red",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "ui",
+            "red",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "red300",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "red300"
+          },
+          "name": "color-ui-red-bright",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "red",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "ui",
+            "red",
+            "bright"
+          ]
+        },
+        "pale": {
+          "value": "red600",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "red600"
+          },
+          "name": "color-ui-red-pale",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "red",
+            "subitem": "pale"
+          },
+          "path": [
+            "color",
+            "ui",
+            "red",
+            "pale"
+          ]
+        }
+      },
+      "orange": {
+        "normal": {
+          "value": "orange100",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "orange100"
+          },
+          "name": "color-ui-orange-normal",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "orange",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "ui",
+            "orange",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "orange80",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "orange80"
+          },
+          "name": "color-ui-orange-dark",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "orange",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "ui",
+            "orange",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "orange300",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "orange300"
+          },
+          "name": "color-ui-orange-bright",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "orange",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "ui",
+            "orange",
+            "bright"
+          ]
+        },
+        "pale": {
+          "value": "orange600",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "orange600"
+          },
+          "name": "color-ui-orange-pale",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "orange",
+            "subitem": "pale"
+          },
+          "path": [
+            "color",
+            "ui",
+            "orange",
+            "pale"
+          ]
+        }
+      },
+      "green": {
+        "normal": {
+          "value": "green100",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "green100"
+          },
+          "name": "color-ui-green-normal",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "green",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "ui",
+            "green",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "green60",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "green60"
+          },
+          "name": "color-ui-green-dark",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "green",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "ui",
+            "green",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "green400",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "green400"
+          },
+          "name": "color-ui-green-bright",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "green",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "ui",
+            "green",
+            "bright"
+          ]
+        },
+        "pale": {
+          "value": "green600",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "green600"
+          },
+          "name": "color-ui-green-pale",
+          "attributes": {
+            "category": "color",
+            "type": "ui",
+            "item": "green",
+            "subitem": "pale"
+          },
+          "path": [
+            "color",
+            "ui",
+            "green",
+            "pale"
+          ]
+        }
+      }
+    },
+    "corporate": {
+      "amazon": {
+        "normal": {
+          "value": "#ff9900",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#f90"
+          },
+          "name": "color-corporate-amazon-normal",
+          "attributes": {
+            "category": "color",
+            "type": "corporate",
+            "item": "amazon",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "corporate",
+            "amazon",
+            "normal"
+          ]
+        },
+        "hover": {
+          "value": "#ff9900",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#f90"
+          },
+          "name": "color-corporate-amazon-hover",
+          "attributes": {
+            "category": "color",
+            "type": "corporate",
+            "item": "amazon",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "corporate",
+            "amazon",
+            "hover"
+          ]
+        }
+      },
+      "facebook": {
+        "normal": {
+          "value": "#3b5998",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#3b5998"
+          },
+          "name": "color-corporate-facebook-normal",
+          "attributes": {
+            "category": "color",
+            "type": "corporate",
+            "item": "facebook",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "corporate",
+            "facebook",
+            "normal"
+          ]
+        },
+        "hover": {
+          "value": "#5a78b4",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#5a78b4"
+          },
+          "name": "color-corporate-facebook-hover",
+          "attributes": {
+            "category": "color",
+            "type": "corporate",
+            "item": "facebook",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "corporate",
+            "facebook",
+            "hover"
+          ]
+        }
+      },
+      "twitter": {
+        "normal": {
+          "value": "#55acee",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#55acee"
+          },
+          "name": "color-corporate-twitter-normal",
+          "attributes": {
+            "category": "color",
+            "type": "corporate",
+            "item": "twitter",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "corporate",
+            "twitter",
+            "normal"
+          ]
+        },
+        "hover": {
+          "value": "#5fc0ff",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#5fc0ff"
+          },
+          "name": "color-corporate-twitter-hover",
+          "attributes": {
+            "category": "color",
+            "type": "corporate",
+            "item": "twitter",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "corporate",
+            "twitter",
+            "hover"
+          ]
+        }
+      },
+      "pinterest": {
+        "value": "#bd081c",
+        "filePath": "tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#bd081c"
+        },
+        "name": "color-corporate-pinterest",
+        "attributes": {
+          "category": "color",
+          "type": "corporate",
+          "item": "pinterest"
+        },
+        "path": [
+          "color",
+          "corporate",
+          "pinterest"
+        ]
+      },
+      "linkedin": {
+        "value": "#0077b5",
+        "filePath": "tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#0077b5"
+        },
+        "name": "color-corporate-linkedin",
+        "attributes": {
+          "category": "color",
+          "type": "corporate",
+          "item": "linkedin"
+        },
+        "path": [
+          "color",
+          "corporate",
+          "linkedin"
+        ]
+      }
+    },
+    "opinion": {
+      "gold": {
+        "normal": {
+          "value": "gold40",
+          "comment": "The default opinion brand color.",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gold40",
+            "comment": "The default opinion brand color."
+          },
+          "name": "color-opinion-gold-normal",
+          "attributes": {
+            "category": "color",
+            "type": "opinion",
+            "item": "gold",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "opinion",
+            "gold",
+            "normal"
+          ]
+        },
+        "bright": {
+          "value": "gold200",
+          "comment": "The opinion color used for hover states and text on a dark background. The hover state on opinion gold bright should be opinion gold normal.",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gold200",
+            "comment": "The opinion color used for hover states and text on a dark background. The hover state on opinion gold bright should be opinion gold normal."
+          },
+          "name": "color-opinion-gold-bright",
+          "attributes": {
+            "category": "color",
+            "type": "opinion",
+            "item": "gold",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "opinion",
+            "gold",
+            "bright"
+          ]
+        },
+        "dark": {
+          "value": "gold60",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "gold60"
+          },
+          "name": "color-opinion-gold-dark",
+          "attributes": {
+            "category": "color",
+            "type": "opinion",
+            "item": "gold",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "opinion",
+            "gold",
+            "dark"
+          ]
+        }
+      }
+    },
+    "subscription": {
+      "blue": {
+        "normal": {
+          "value": "cta",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "cta"
+          },
+          "name": "color-subscription-blue-normal",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "blue",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "blue",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "blue60",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "blue60"
+          },
+          "name": "color-subscription-blue-dark",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "blue",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "blue",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "blue300",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "blue300"
+          },
+          "name": "color-subscription-blue-bright",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "blue",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "blue",
+            "bright"
+          ]
+        },
+        "pale": {
+          "value": "blue600",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "blue600"
+          },
+          "name": "color-subscription-blue-pale",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "blue",
+            "subitem": "pale"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "blue",
+            "pale"
+          ]
+        }
+      },
+      "pink": {
+        "normal": {
+          "value": "#b0578c",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#b0578c"
+          },
+          "name": "color-subscription-pink-normal",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "pink",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "pink",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "#853b67",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#853b67"
+          },
+          "name": "color-subscription-pink-dark",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "pink",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "pink",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "#e3a7cb",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#e3a7cb"
+          },
+          "name": "color-subscription-pink-bright",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "pink",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "pink",
+            "bright"
+          ]
+        },
+        "pale": {
+          "value": "#fef4fa",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#fef4fa"
+          },
+          "name": "color-subscription-pink-pale",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "pink",
+            "subitem": "pale"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "pink",
+            "pale"
+          ]
+        }
+      },
+      "green": {
+        "normal": {
+          "value": "#1c7c4e",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#1c7c4e"
+          },
+          "name": "color-subscription-green-normal",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "green",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "green",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "#0b5733",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#0b5733"
+          },
+          "name": "color-subscription-green-dark",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "green",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "green",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "#439e73",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#439e73"
+          },
+          "name": "color-subscription-green-bright",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "green",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "green",
+            "bright"
+          ]
+        },
+        "pale": {
+          "value": "#eff5f2",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#eff5f2"
+          },
+          "name": "color-subscription-green-pale",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "green",
+            "subitem": "pale"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "green",
+            "pale"
+          ]
+        }
+      },
+      "navy": {
+        "normal": {
+          "value": "#0c198a",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#0c198a"
+          },
+          "name": "color-subscription-navy-normal",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "navy",
+            "subitem": "normal"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "navy",
+            "normal"
+          ]
+        },
+        "dark": {
+          "value": "#0e1555",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#0e1555"
+          },
+          "name": "color-subscription-navy-dark",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "navy",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "navy",
+            "dark"
+          ]
+        },
+        "bright": {
+          "value": "#3846c1",
+          "filePath": "tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#3846c1"
+          },
+          "name": "color-subscription-navy-bright",
+          "attributes": {
+            "category": "color",
+            "type": "subscription",
+            "item": "navy",
+            "subitem": "bright"
+          },
+          "path": [
+            "color",
+            "subscription",
+            "navy",
+            "bright"
+          ]
+        }
+      }
+    }
+  }
+}
