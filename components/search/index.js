@@ -89,7 +89,9 @@ const Form = ({ onFormSubmit }) => {
         className="text-input b pa-xs mr-sm"
         placeholder="Search for Tachyons"
       />
-      <button type="submit" className="btn">
+      <button type="submit" className="b pa-xs pr-sm pl-sm bold white" style={{
+        backgroundColor: "var(--wpds-colors-primary)"
+      }}>
         Search
       </button>
     </form>

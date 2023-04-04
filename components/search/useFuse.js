@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Fuse from "fuse.js";
 
 const useFuse = (query, list) => {
-  console.log(query);
   const [results, setResults] = useState([]);
 
   const fuse = new Fuse(list, {

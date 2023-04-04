@@ -5,7 +5,7 @@ const postcss = require("postcss");
 const getProcesedModule = require("./getProcessedModule");
 const selectors = [];
 
-getProcesedModule(path.resolve(__dirname, "../../src/index.css")).then(res => {
+getProcesedModule(path.resolve(__dirname, "../../src/nextra.css")).then(res => {
   postcss.parse(res).walkRules(r => {
     if (!r.selector.includes("root")) {
       let responsive = "all screens";
@@ -28,7 +28,7 @@ getProcesedModule(path.resolve(__dirname, "../../src/index.css")).then(res => {
           break;
       }
 
-      const css = r.nodes.map(({ prop, value }) => {
+      const css = r.nodes.map(({prop, value}) => {
         return {
           prop,
           value
