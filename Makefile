@@ -1,5 +1,5 @@
 # use tabs please
-build: spacers-tachyons typography-tachyons color-tachyons bundle next-build
+build: spacers-tachyons typography-tachyons color-tachyons bundle search next-build
 
 spacers-tachyons:
 	@echo "Building spacers-tachyons"
@@ -14,6 +14,10 @@ typography-tachyons:
 color-tachyons:
 	@echo "Building color-tachyons"
 	node ./build/tachyons.js
+
+search:
+	@echo "Building search"
+	node ./components/search/build.js
 
 bundle:
 	@echo "Building bundle"

@@ -2,7 +2,7 @@ const path = require("path");
 const Fuse = require("fuse.js");
 const fs = require("fs-extra");
 const postcss = require("postcss");
-const getProcesedModule = require("../util/getProcessedModule");
+const getProcesedModule = require("./getProcessedModule");
 const selectors = [];
 
 getProcesedModule(path.resolve(__dirname, "../../src/index.css")).then(res => {
