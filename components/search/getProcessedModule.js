@@ -3,7 +3,7 @@ const imports = require("postcss-import");
 const combineMediaQuery = require("postcss-combine-media-query");
 const cssnano = require("cssnano");
 
-const plugins =  [
+const plugins = [
   imports,
   combineMediaQuery,
   cssnano({

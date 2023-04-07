@@ -43,8 +43,9 @@ const TypographyTable = props => {
           {toTitleCase(props.name)}
         </h2>
         <p
-          className={`font-light font-subhead font-xxxs ${!isLineHeight ? "gray-dark" : "subs-theme pink-dark"
-            }`}
+          className={`font-light font-subhead font-xxxs ${
+            !isLineHeight ? "gray-dark" : "subs-theme pink-dark"
+          }`}
         >
           {props.values.subtitle}
         </p>
@@ -80,8 +81,16 @@ const TypographyTable = props => {
               return (
                 <tr key={JSON.stringify(data)} className="">
                   <td>{toTitleCase(name)}</td>
-                  {!!data["pixelSize"] ? <td>{data["pixelSize"]}px</td> : <td>-</td>}
-                  {<td>{data["remSize"] === 'undefined' ? "-" : data["remSize"]}</td>}
+                  {!!data["pixelSize"] ? (
+                    <td>{data["pixelSize"]}px</td>
+                  ) : (
+                    <td>-</td>
+                  )}
+                  {
+                    <td>
+                      {data["remSize"] === "undefined" ? "-" : data["remSize"]}
+                    </td>
+                  }
                   <td>{!isLineHeight ? data["weight"] : data["value"]}</td>
                   {!isLineHeight ? <td>{data["font-family"]}</td> : null}
                   <td className={`${data["css"]} mw-420`}>{data["example"]}</td>
@@ -104,10 +113,11 @@ export const Typography = () => (
         const [name, data] = customizeValue;
         const fontSize = customizeValue[1]?.css
           ?.split("font-")[1]
-          .replace(/" "/g, "").trim()
+          .replace(/" "/g, "")
+          .trim();
         if (typeof data === "object") {
           data.remSize = String(tokens.size[fontSize]) || "-";
-          data.pixelSize = String(data.remSize).replace("rem", "") * 16
+          data.pixelSize = String(data.remSize).replace("rem", "") * 16;
         }
 
         return [name, data];

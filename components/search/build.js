@@ -28,16 +28,39 @@ getProcesedModule(path.resolve(__dirname, "../../src/nextra.css")).then(res => {
           break;
       }
 
-      const css = r.nodes.map(({prop, value}) => {
+      const css = r.nodes.map(({ prop, value }) => {
         return {
           prop,
           value
         };
       });
 
+      let className = r.selector.replace(/\./g, " ").replace(" ", "");
+      className = className.replace(/:hover/g, "");
+      className = className.replace(/:focus/g, "");
+      className = className.replace(/:active/g, "");
+      className = className.replace(/:visited/g, "");
+      className = className.replace(/:link/g, "");
+      className = className.replace(/:before/g, "");
+      className = className.replace(/:after/g, "");
+      className = className.replace(/:first-child/g, "");
+      className = className.replace(/:last-child/g, "");
+      className = className.replace(/:nth-child/g, "");
+      // remove ,
+      className = className.replace(/,/g, "");
+      const selector = r.selector;
+
+      if (
+        selector.includes("subs-theme") ||
+        selector.includes("subs-") ||
+        selector.includes("orange")
+      ) {
+        return;
+      }
+
       selectors.push({
-        className: r.selector.replace(/\./g, " ").replace(" ", ""),
-        selector: r.selector,
+        className,
+        selector,
         css,
         responsive
       });

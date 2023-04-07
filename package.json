@@ -14,7 +14,7 @@
   "scripts": {
     "build": "make build",
     "clean": "make clean",
-    "format": "prettier --check \"**/*.(js|css)\"",
+    "format": "prettier --write \"**/*.(js|css|mdx|jsx)\"",
     "dev": "next dev"
   },
   "repository": {

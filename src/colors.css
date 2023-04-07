@@ -38,7 +38,6 @@
   border-color: var(--wpds-colors-blue80);
 }
 
-
 .bg-blue-dark {
   background-color: var(--wpds-colors-blue40);
 }
@@ -74,7 +73,6 @@
 .focus-bc-blue-dark:focus {
   border-color: var(--wpds-colors-blue40);
 }
-
 
 .bg-blue-bright {
   background-color: var(--wpds-colors-blue200);
@@ -112,7 +110,6 @@
   border-color: var(--wpds-colors-blue200);
 }
 
-
 .bg-blue-pale {
   background-color: var(--wpds-colors-blue600);
 }
@@ -148,7 +145,6 @@
 .focus-bc-blue-pale:focus {
   border-color: var(--wpds-colors-blue600);
 }
-
 
 .bg-white {
   background-color: var(--wpds-colors-gray700);
@@ -186,7 +182,6 @@
   border-color: var(--wpds-colors-gray700);
 }
 
-
 .bg-offwhite {
   background-color: var(--wpds-colors-gray600);
 }
@@ -222,7 +217,6 @@
 .focus-bc-offwhite:focus {
   border-color: var(--wpds-colors-gray600);
 }
-
 
 .bg-black {
   background-color: var(--wpds-colors-gray0);
@@ -260,7 +254,6 @@
   border-color: var(--wpds-colors-gray0);
 }
 
-
 .bg-offblack {
   background-color: var(--wpds-colors-gray20);
 }
@@ -296,7 +289,6 @@
 .focus-bc-offblack:focus {
   border-color: var(--wpds-colors-gray20);
 }
-
 
 .bg-gray-lightest {
   background-color: var(--wpds-colors-gray500);
@@ -334,7 +326,6 @@
   border-color: var(--wpds-colors-gray500);
 }
 
-
 .bg-gray-lighter {
   background-color: var(--wpds-colors-gray400);
 }
@@ -370,7 +361,6 @@
 .focus-bc-gray-lighter:focus {
   border-color: var(--wpds-colors-gray400);
 }
-
 
 .bg-gray-light {
   background-color: var(--wpds-colors-gray300);
@@ -408,7 +398,6 @@
   border-color: var(--wpds-colors-gray300);
 }
 
-
 .bg-gray {
   background-color: var(--wpds-colors-gray200);
 }
@@ -444,7 +433,6 @@
 .focus-bc-gray:focus {
   border-color: var(--wpds-colors-gray200);
 }
-
 
 .bg-gray-dark {
   background-color: var(--wpds-colors-gray80);
@@ -482,7 +470,6 @@
   border-color: var(--wpds-colors-gray80);
 }
 
-
 .bg-gray-darker {
   background-color: var(--wpds-colors-gray60);
 }
@@ -518,7 +505,6 @@
 .focus-bc-gray-darker:focus {
   border-color: var(--wpds-colors-gray60);
 }
-
 
 .bg-gray-darkest {
   background-color: var(--wpds-colors-gray40);
@@ -556,7 +542,6 @@
   border-color: var(--wpds-colors-gray40);
 }
 
-
 .bg-red {
   background-color: var(--wpds-colors-red100);
 }
@@ -592,7 +577,6 @@
 .focus-bc-red:focus {
   border-color: var(--wpds-colors-red100);
 }
-
 
 .bg-red-dark {
   background-color: var(--wpds-colors-red80);
@@ -630,7 +614,6 @@
   border-color: var(--wpds-colors-red80);
 }
 
-
 .bg-red-bright {
   background-color: var(--wpds-colors-red300);
 }
@@ -666,7 +649,6 @@
 .focus-bc-red-bright:focus {
   border-color: var(--wpds-colors-red300);
 }
-
 
 .bg-red-pale {
   background-color: var(--wpds-colors-red600);
@@ -704,7 +686,6 @@
   border-color: var(--wpds-colors-red600);
 }
 
-
 .bg-orange {
   background-color: var(--wpds-colors-orange100);
 }
@@ -740,7 +721,6 @@
 .focus-bc-orange:focus {
   border-color: var(--wpds-colors-orange100);
 }
-
 
 .bg-orange-dark {
   background-color: var(--wpds-colors-orange80);
@@ -778,7 +758,6 @@
   border-color: var(--wpds-colors-orange80);
 }
 
-
 .bg-orange-bright {
   background-color: var(--wpds-colors-orange300);
 }
@@ -814,7 +793,6 @@
 .focus-bc-orange-bright:focus {
   border-color: var(--wpds-colors-orange300);
 }
-
 
 .bg-orange-pale {
   background-color: var(--wpds-colors-orange600);
@@ -852,7 +830,6 @@
   border-color: var(--wpds-colors-orange600);
 }
 
-
 .bg-green {
   background-color: var(--wpds-colors-green100);
 }
@@ -888,7 +865,6 @@
 .focus-bc-green:focus {
   border-color: var(--wpds-colors-green100);
 }
-
 
 .bg-green-dark {
   background-color: var(--wpds-colors-green60);
@@ -926,7 +902,6 @@
   border-color: var(--wpds-colors-green60);
 }
 
-
 .bg-green-bright {
   background-color: var(--wpds-colors-green400);
 }
@@ -962,7 +937,6 @@
 .focus-bc-green-bright:focus {
   border-color: var(--wpds-colors-green400);
 }
-
 
 .bg-green-pale {
   background-color: var(--wpds-colors-green600);
@@ -1074,7 +1048,6 @@
   border-color: var(--wpds-colors-gold200);
 }
 
-
 .bg-gold-dark {
   background-color: var(--wpds-colors-gold60);
 }
@@ -1110,7 +1083,6 @@
 .focus-bc-gold-dark:focus {
   border-color: var(--wpds-colors-gold60);
 }
-
 
 .subs-theme.bg-blue {
   background-color: var(--wpds-colors-cta);
@@ -1148,7 +1120,6 @@
   border-color: var(--wpds-colors-cta);
 }
 
-
 .subs-theme.bg-blue-dark {
   background-color: var(--wpds-colors-blue60);
 }
@@ -1184,7 +1155,6 @@
 .subs-theme.focus-bc-blue-dark:focus {
   border-color: var(--wpds-colors-blue60);
 }
-
 
 .subs-theme.bg-blue-bright {
   background-color: var(--wpds-colors-blue300);
@@ -1222,7 +1192,6 @@
   border-color: var(--wpds-colors-blue300);
 }
 
-
 .subs-theme.bg-blue-pale {
   background-color: var(--wpds-colors-blue600);
 }
@@ -1258,7 +1227,6 @@
 .subs-theme.focus-bc-blue-pale:focus {
   border-color: var(--wpds-colors-blue600);
 }
-
 
 .subs-theme.bg-pink {
   background-color: #b0578c;
@@ -1296,7 +1264,6 @@
   border-color: #b0578c;
 }
 
-
 .subs-theme.bg-pink-dark {
   background-color: #853b67;
 }
@@ -1332,7 +1299,6 @@
 .subs-theme.focus-bc-pink-dark:focus {
   border-color: #853b67;
 }
-
 
 .subs-theme.bg-pink-bright {
   background-color: #e3a7cb;
@@ -1370,7 +1336,6 @@
   border-color: #e3a7cb;
 }
 
-
 .subs-theme.bg-pink-pale {
   background-color: #fef4fa;
 }
@@ -1406,7 +1371,6 @@
 .subs-theme.focus-bc-pink-pale:focus {
   border-color: #fef4fa;
 }
-
 
 .subs-theme.bg-green {
   background-color: #1c7c4e;
@@ -1444,7 +1408,6 @@
   border-color: #1c7c4e;
 }
 
-
 .subs-theme.bg-green-dark {
   background-color: #0b5733;
 }
@@ -1480,7 +1443,6 @@
 .subs-theme.focus-bc-green-dark:focus {
   border-color: #0b5733;
 }
-
 
 .subs-theme.bg-green-bright {
   background-color: #439e73;
@@ -1518,7 +1480,6 @@
   border-color: #439e73;
 }
 
-
 .subs-theme.bg-green-pale {
   background-color: #eff5f2;
 }
@@ -1554,7 +1515,6 @@
 .subs-theme.focus-bc-green-pale:focus {
   border-color: #eff5f2;
 }
-
 
 .subs-theme.bg-navy {
   background-color: #0c198a;
@@ -1592,7 +1552,6 @@
   border-color: #0c198a;
 }
 
-
 .subs-theme.bg-navy-dark {
   background-color: #0e1555;
 }
@@ -1628,7 +1587,6 @@
 .subs-theme.focus-bc-navy-dark:focus {
   border-color: #0e1555;
 }
-
 
 .subs-theme.bg-navy-bright {
   background-color: #3846c1;
