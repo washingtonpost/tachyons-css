@@ -14,7 +14,7 @@
   "scripts": {
     "build": "make build",
     "clean": "make clean",
-    "format": "prettier --check \"**/*.(js|css)\"",
+    "format": "prettier --write \"**/*.(js|css|mdx|jsx)\"",
     "dev": "next dev"
   },
   "repository": {
@@ -23,7 +23,6 @@
   },
   "author": "WPDS Support <wpds@washingtonpost.com>",
   "dependencies": {
-    "@washingtonpost/color-tokens": "latest",
     "@washingtonpost/icon-tokens": "latest",
     "@washingtonpost/logo-tokens": "latest",
     "@washingtonpost/motion-tokens": "latest",
@@ -32,7 +31,6 @@
     "@washingtonpost/typography-tokens": "latest"
   },
   "peerDependencies": {
-    "@washingtonpost/color-tokens": "latest",
     "@washingtonpost/icon-tokens": "latest",
     "@washingtonpost/logo-tokens": "latest",
     "@washingtonpost/motion-tokens": "latest",
@@ -51,7 +49,6 @@
     "postcss": "^8.4.21",
     "postcss-cli": "^9.0.2",
     "postcss-combine-media-query": "^1.0.1",
-    "postcss-css-variables": "^0.18.0",
     "postcss-import": "^14.1.0",
     "postcss-nested-import": "^0.2.0",
     "prettier": "^2.4.1",
@@ -65,7 +62,7 @@
     "access": "public"
   },
   "overrides": {
-    "react": "$react",
-    "react-dom": "$react-dom"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

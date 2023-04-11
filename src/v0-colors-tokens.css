@@ -1,0 +1,66 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 13 May 2022 14:42:45 GMT
+ */
+
+:root {
+  --color-brand-blue-normal: var(
+    --wpds-colors-blue80
+  ); /* our traditional brand color */
+  --color-brand-blue-dark: var(--wpds-colors-blue40);
+  --color-brand-blue-bright: var(--wpds-colors-blue200);
+  --color-brand-blue-pale: var(--wpds-colors-blue600);
+  --color-ui-white: var(--wpds-colors-gray700);
+  --color-ui-offwhite: var(--wpds-colors-gray600);
+  --color-ui-black: var(--wpds-colors-gray0);
+  --color-ui-offblack: var(--wpds-colors-gray20);
+  --color-ui-gray-lightest: var(--wpds-colors-gray500);
+  --color-ui-gray-lighter: var(--wpds-colors-gray400);
+  --color-ui-gray-light: var(--wpds-colors-gray300);
+  --color-ui-gray-base: var(--wpds-colors-gray200);
+  --color-ui-gray-dark: var(--wpds-colors-gray80);
+  --color-ui-gray-darker: var(--wpds-colors-gray60);
+  --color-ui-gray-darkest: var(--wpds-colors-gray40);
+  --color-ui-red-normal: var(--wpds-colors-red100);
+  --color-ui-red-dark: var(--wpds-colors-red80);
+  --color-ui-red-bright: var(--wpds-colors-red300);
+  --color-ui-red-pale: var(--wpds-colors-red600);
+  --color-ui-orange-normal: var(--wpds-colors-orange100);
+  --color-ui-orange-dark: var(--wpds-colors-orange80);
+  --color-ui-orange-bright: var(--wpds-colors-orange300);
+  --color-ui-orange-pale: var(--wpds-colors-orange600);
+  --color-ui-green-normal: var(--wpds-colors-green100);
+  --color-ui-green-dark: var(--wpds-colors-green60);
+  --color-ui-green-bright: var(--wpds-colors-green400);
+  --color-ui-green-pale: var(--wpds-colors-green600);
+  --color-corporate-amazon-normal: #ff9900;
+  --color-corporate-amazon-hover: #ff9900;
+  --color-corporate-facebook-normal: #3b5998;
+  --color-corporate-facebook-hover: #5a78b4;
+  --color-corporate-twitter-normal: #55acee;
+  --color-corporate-twitter-hover: #5fc0ff;
+  --color-corporate-pinterest: #bd081c;
+  --color-corporate-linkedin: #0077b5;
+  --color-opinion-gold-normal: var(
+    --wpds-colors-gold40
+  ); /* The default opinion brand color. */
+  --color-opinion-gold-bright: var(
+    --wpds-colors-gold200
+  ); /* The opinion color used for hover states and text on a dark background. The hover state on opinion gold bright should be opinion gold normal. */
+  --color-opinion-gold-dark: var(--wpds-colors-gold60);
+  --color-subscription-blue-normal: var(--wpds-colors-cta);
+  --color-subscription-blue-dark: var(--wpds-colors-blue60);
+  --color-subscription-blue-bright: var(--wpds-colors-blue300);
+  --color-subscription-blue-pale: var(--wpds-colors-blue600);
+  --color-subscription-pink-normal: #b0578c;
+  --color-subscription-pink-dark: #853b67;
+  --color-subscription-pink-bright: #e3a7cb;
+  --color-subscription-pink-pale: #fef4fa;
+  --color-subscription-green-normal: #1c7c4e;
+  --color-subscription-green-dark: #0b5733;
+  --color-subscription-green-bright: #439e73;
+  --color-subscription-green-pale: #eff5f2;
+  --color-subscription-navy-normal: #0c198a;
+  --color-subscription-navy-dark: #0e1555;
+  --color-subscription-navy-bright: #3846c1;
+}

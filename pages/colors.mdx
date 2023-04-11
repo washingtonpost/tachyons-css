@@ -1,0 +1,30 @@
+# Colors
+
+import ColorTable from "./../components/colors";
+import Head from "next/head";
+
+<Head>
+  <title>Colors - WaPo Tachyons</title>
+</Head>
+
+The color palette is based on the [WPDS Color Foundations](https://build.washingtonpost.com/foundations/color/). The names here are legacy however we have mapped the names to the new WPDS colors.
+
+Our color tachyons can be applied to the HTML like so where `color` is the name of the color.
+
+```html
+<div class="blue">Text</div>
+```
+
+* `bg-color` - background color
+* `color` - text color
+* `bc-color` - border color
+* `fill-color` - svg fill color
+* `hover-fill-color` - svg fill color on hover
+* `hover-bg-color` - background color on hover
+* `hover-color` - text color on hover
+
+## Color Palette
+
+We have documented the old color token with the new WPDS color token.
+
+<ColorTable />

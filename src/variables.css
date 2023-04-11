@@ -1,4 +1,4 @@
-@import "@washingtonpost/color-tokens/dist/css/tokens.css";
+@import "./v0-colors-tokens.css";
 @import "@washingtonpost/spacing-tokens/dist/css/tokens.css";
 @import "@washingtonpost/shadow-tokens/dist/css/tokens.css";
 @import "@washingtonpost/motion-tokens/dist/css/tokens.css";
@@ -7,8 +7,8 @@
   /* colors */
 
   --white-alpha-50: rgba(255, 255, 255, 0.5);
-  --gray-darkest-alpha-50: rgba(42, 42, 42, 0.5);
-  --gray-darkest-alpha-25: rgba(42, 42, 42, 0.25);
+  --gray-darkest-alpha-50: var(--wpds-colors-alpha50);
+  --gray-darkest-alpha-25: var(--wpds-colors-alpha25);
 
   --white: var(--color-ui-white);
   --offwhite: var(--color-ui-offwhite);
