@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/washingtonpost/tachyons-css/compare/v1.6.0...v1.7.0) (2023-04-11)
+
+
+### Features
+
+* update tachyons colors to use WPDS colors ([#15](https://github.com/washingtonpost/tachyons-css/issues/15)) ([b443436](https://github.com/washingtonpost/tachyons-css/commit/b443436c620a81ac2aaa9116941e2881cf724d25))
+
 ## [1.6.0](https://github.com/washingtonpost/tachyons-css/compare/v1.5.1...v1.6.0) (2023-04-04)
 
 
@@ -5,13 +12,6 @@
 
 * add search build to build ([cddf8c0](https://github.com/washingtonpost/tachyons-css/commit/cddf8c0f16e0733b7454d0b42f749ced506abc61))
 * add search build to build ([1b5f03d](https://github.com/washingtonpost/tachyons-css/commit/1b5f03d1f0428821844d5f606db0ca96562c6a27))
-
-## [1.7.0](https://github.com/washingtonpost/tachyons-css/compare/v1.6.0...v1.7.0) (2023-04-11)
-
-
-### Features
-
-* update tachyons colors to use WPDS colors ([#15](https://github.com/washingtonpost/tachyons-css/issues/15)) ([b443436](https://github.com/washingtonpost/tachyons-css/commit/b443436c620a81ac2aaa9116941e2881cf724d25))
 
 ## [1.5.1](https://github.com/washingtonpost/tachyons-css/compare/v1.5.0...v1.5.1) (2023-03-31)
 
