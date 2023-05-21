@@ -1,4 +1,4 @@
-@import "./normalize.css";
+@import '../node_modules/modern-normalize/modern-normalize.css';
 @import "./variables.css";
 @import "./unstable-theme.css";
 @import "./borders.css";
