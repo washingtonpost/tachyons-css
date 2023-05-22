@@ -5,6 +5,13 @@
 
 * update tachyons colors to use WPDS colors ([#15](https://github.com/washingtonpost/tachyons-css/issues/15)) ([b443436](https://github.com/washingtonpost/tachyons-css/commit/b443436c620a81ac2aaa9116941e2881cf724d25))
 
+## [1.7.1](https://github.com/washingtonpost/tachyons-css/compare/v1.7.0...v1.7.1) (2023-05-22)
+
+
+### Bug Fixes
+
+* replace outdated normalize.css with modern-normalize [SRED-250] ([#18](https://github.com/washingtonpost/tachyons-css/issues/18)) ([dcac5ce](https://github.com/washingtonpost/tachyons-css/commit/dcac5cec3bfd88184900925b861f2fadd9861141))
+
 ## [1.6.0](https://github.com/washingtonpost/tachyons-css/compare/v1.5.1...v1.6.0) (2023-04-04)
 
 
