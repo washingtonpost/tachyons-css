@@ -3,7 +3,7 @@
 
     does not include normalize, shame, header, or tooltip
 */
-/* @import '../node_modules/modern-normalize/modern-normalize.css'; */
+/* @import "./normalize.css"; */
 @import "./wpds-colors-tokens.css";
 @import "./variables.css";
 @import "./unstable-theme.css";
