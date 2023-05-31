@@ -28,8 +28,7 @@
     "@washingtonpost/motion-tokens": "latest",
     "@washingtonpost/shadow-tokens": "latest",
     "@washingtonpost/spacing-tokens": "latest",
-    "@washingtonpost/typography-tokens": "latest",
-    "modern-normalize": "^2.0.0"
+    "@washingtonpost/typography-tokens": "latest"
   },
   "peerDependencies": {
     "@washingtonpost/icon-tokens": "latest",
