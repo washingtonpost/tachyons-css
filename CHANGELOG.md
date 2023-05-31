@@ -5,6 +5,13 @@
 
 * update tachyons colors to use WPDS colors ([#15](https://github.com/washingtonpost/tachyons-css/issues/15)) ([b443436](https://github.com/washingtonpost/tachyons-css/commit/b443436c620a81ac2aaa9116941e2881cf724d25))
 
+## [1.7.2](https://github.com/washingtonpost/tachyons-css/compare/v1.7.1...v1.7.2) (2023-05-31)
+
+
+### Bug Fixes
+
+* modify modern-normalize css to remove firefox dotted focus outline override [SRED-163] ([#20](https://github.com/washingtonpost/tachyons-css/issues/20)) ([6fb929f](https://github.com/washingtonpost/tachyons-css/commit/6fb929fc2533587ef4285f9d2acb3f663c7efd0f))
+
 ## [1.7.1](https://github.com/washingtonpost/tachyons-css/compare/v1.7.0...v1.7.1) (2023-05-22)
 
 
