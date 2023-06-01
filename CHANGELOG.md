@@ -5,6 +5,13 @@
 
 * update tachyons colors to use WPDS colors ([#15](https://github.com/washingtonpost/tachyons-css/issues/15)) ([b443436](https://github.com/washingtonpost/tachyons-css/commit/b443436c620a81ac2aaa9116941e2881cf724d25))
 
+## [1.7.3](https://github.com/washingtonpost/tachyons-css/compare/v1.7.2...v1.7.3) (2023-06-01)
+
+
+### Bug Fixes
+
+* use gold40 for gold dark ([28a1964](https://github.com/washingtonpost/tachyons-css/commit/28a1964b005960767c1035db06f9d3dc3935d97f))
+
 ## [1.7.2](https://github.com/washingtonpost/tachyons-css/compare/v1.7.1...v1.7.2) (2023-05-31)
 
 
