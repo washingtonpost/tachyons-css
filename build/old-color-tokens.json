@@ -750,12 +750,12 @@
     "opinion": {
       "gold": {
         "normal": {
-          "value": "gold40",
+          "value": "gold60",
           "comment": "The default opinion brand color.",
           "filePath": "tokens.json",
           "isSource": true,
           "original": {
-            "value": "gold40",
+            "value": "gold60",
             "comment": "The default opinion brand color."
           },
           "name": "color-opinion-gold-normal",
@@ -796,11 +796,11 @@
           ]
         },
         "dark": {
-          "value": "gold60",
+          "value": "gold40",
           "filePath": "tokens.json",
           "isSource": true,
           "original": {
-            "value": "gold60"
+            "value": "gold40"
           },
           "name": "color-opinion-gold-dark",
           "attributes": {
