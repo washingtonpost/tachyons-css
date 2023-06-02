@@ -22,6 +22,7 @@ search:
 bundle:
 	@echo "Building bundle"
 	npx postcss --config config/postcss.config.js src/index.css -o dist/index.css
+	npx postcss --config config/postcss.config.js src/custom-template.css -o dist/custom-template.css
 
 next-build:
 	npx next build
