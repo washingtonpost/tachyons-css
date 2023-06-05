@@ -1,6 +1,6 @@
 {
   "name": "@washingtonpost/tachyons-css",
-  "version": "1.7.3",
+  "version": "1.8.0",
   "main": "dist/index.css",
   "style": "dist/index.css",
   "directories": {
