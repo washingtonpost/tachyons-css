@@ -1,7 +1,7 @@
 /*
     custom-template specific build
 
-    disables styles not relevant to the custom template and adds some lost normalization
+    disables styles not relevant to the custom template
 */
 
 @import './normalize.css';
