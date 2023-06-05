@@ -5,6 +5,19 @@
 
 * update tachyons colors to use WPDS colors ([#15](https://github.com/washingtonpost/tachyons-css/issues/15)) ([b443436](https://github.com/washingtonpost/tachyons-css/commit/b443436c620a81ac2aaa9116941e2881cf724d25))
 
+## [1.8.0](https://github.com/washingtonpost/tachyons-css/compare/v1.7.3...v1.8.0) (2023-06-05)
+
+
+### Features
+
+* add custom-template specific dist ([1a2b5f0](https://github.com/washingtonpost/tachyons-css/commit/1a2b5f0e5ee07923c8277853e505616c3a08589f))
+* create custom-template specific tachyon sheet ([46b6f95](https://github.com/washingtonpost/tachyons-css/commit/46b6f95750c09df85cd8b809ec77b01313ddf0d3))
+
+
+### Bug Fixes
+
+* removes note about normalize ([a664186](https://github.com/washingtonpost/tachyons-css/commit/a664186f91d6beb854e8ec194eb2ed9cea0de818))
+
 ## [1.7.3](https://github.com/washingtonpost/tachyons-css/compare/v1.7.2...v1.7.3) (2023-06-01)
 
 
