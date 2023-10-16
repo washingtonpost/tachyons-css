@@ -73,3 +73,5 @@ packages/**/.next
 
 .yalc
 yalc.lock
+
+.vscode/
