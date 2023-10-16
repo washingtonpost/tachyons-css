@@ -5105,7 +5105,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "\\$body"
+				"value": "var(--wpds-fonts-body)"
 			},
 			{
 				"prop": "line-height",
@@ -5120,7 +5120,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "\\$headline"
+				"value": "var(--wpds-fonts-headline)"
 			},
 			{
 				"prop": "line-height",
@@ -5135,7 +5135,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "\\$magazine"
+				"value": "var(--wpds-fonts-magazine)"
 			},
 			{
 				"prop": "line-height",
@@ -5150,7 +5150,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "\\$meta"
+				"value": "var(--wpds-fonts-meta)"
 			},
 			{
 				"prop": "line-height",
@@ -5165,7 +5165,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "\\$subhead"
+				"value": "var(--wpds-fonts-subhead)"
 			},
 			{
 				"prop": "line-height",
@@ -5180,7 +5180,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "\\$body"
+				"value": "var(--wpds-fonts-body)"
 			},
 			{
 				"prop": "line-height",
@@ -5195,7 +5195,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "\\$meta"
+				"value": "var(--wpds-fonts-meta)"
 			}
 		],
 		"responsive": "all screens"
@@ -8939,6 +8939,21 @@
 			{
 				"prop": "display",
 				"value": "none"
+			}
+		],
+		"responsive": "all screens"
+	},
+	{
+		"className": "bodyhtml",
+		"selector": "body,html",
+		"css": [
+			{
+				"prop": "font-feature-settings",
+				"value": "\"normal\""
+			},
+			{
+				"prop": "color",
+				"value": "\"blue\""
 			}
 		],
 		"responsive": "all screens"
