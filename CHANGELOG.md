@@ -5,6 +5,13 @@
 
 * update tachyons colors to use WPDS colors ([#15](https://github.com/washingtonpost/tachyons-css/issues/15)) ([b443436](https://github.com/washingtonpost/tachyons-css/commit/b443436c620a81ac2aaa9116941e2881cf724d25))
 
+## [1.9.0](https://github.com/washingtonpost/tachyons-css/compare/v1.8.0...v1.9.0) (2023-10-20)
+
+
+### Features
+
+* update font family tokens ([#28](https://github.com/washingtonpost/tachyons-css/issues/28)) ([eee7afd](https://github.com/washingtonpost/tachyons-css/commit/eee7afd045c37b298a739a23424f20a3d9a39fef))
+
 ## [1.8.0](https://github.com/washingtonpost/tachyons-css/compare/v1.7.3...v1.8.0) (2023-06-05)
 
 
