@@ -1,6 +1,5 @@
 /*
     nextra specific build
-
     does not include normalize, shame, header, or tooltip
 */
 /* @import "./normalize.css"; */
@@ -33,3 +32,4 @@
 @import "./animations.css";
 /* @import "./tooltip.css"; */
 @import "./random.css";
+@import "./custom-nextra-overrides.css";

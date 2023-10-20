@@ -5105,7 +5105,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "georgia,Times New Roman,serif"
+				"value": "var(--wpds-fonts-body)"
 			},
 			{
 				"prop": "line-height",
@@ -5115,12 +5115,12 @@
 		"responsive": "all screens"
 	},
 	{
-		"className": "font--headline font--magazine-headline",
-		"selector": ".font--headline,.font--magazine-headline",
+		"className": "font--headline",
+		"selector": ".font--headline",
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "Postoni,garamond,serif"
+				"value": "var(--wpds-fonts-headline)"
 			},
 			{
 				"prop": "line-height",
@@ -5130,12 +5130,42 @@
 		"responsive": "all screens"
 	},
 	{
-		"className": "font--meta-text font--subhead",
-		"selector": ".font--meta-text,.font--subhead",
+		"className": "font--magazine-headline",
+		"selector": ".font--magazine-headline",
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "Franklin,arial,sans-serif"
+				"value": "var(--wpds-fonts-magazine)"
+			},
+			{
+				"prop": "line-height",
+				"value": "1.1"
+			}
+		],
+		"responsive": "all screens"
+	},
+	{
+		"className": "font--meta-text",
+		"selector": ".font--meta-text",
+		"css": [
+			{
+				"prop": "font-family",
+				"value": "var(--wpds-fonts-meta)"
+			},
+			{
+				"prop": "line-height",
+				"value": "1.25"
+			}
+		],
+		"responsive": "all screens"
+	},
+	{
+		"className": "font--subhead",
+		"selector": ".font--subhead",
+		"css": [
+			{
+				"prop": "font-family",
+				"value": "var(--wpds-fonts-subhead)"
 			},
 			{
 				"prop": "line-height",
@@ -5150,7 +5180,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "georgia,Times New Roman,serif"
+				"value": "var(--wpds-fonts-body)"
 			},
 			{
 				"prop": "line-height",
@@ -5165,7 +5195,7 @@
 		"css": [
 			{
 				"prop": "font-family",
-				"value": "Franklin,arial,sans-serif"
+				"value": "var(--wpds-fonts-meta)"
 			}
 		],
 		"responsive": "all screens"
@@ -8909,6 +8939,21 @@
 			{
 				"prop": "display",
 				"value": "none"
+			}
+		],
+		"responsive": "all screens"
+	},
+	{
+		"className": "bodyhtml",
+		"selector": "body,html",
+		"css": [
+			{
+				"prop": "font-feature-settings",
+				"value": "\"normal\""
+			},
+			{
+				"prop": "color",
+				"value": "\"blue\""
 			}
 		],
 		"responsive": "all screens"

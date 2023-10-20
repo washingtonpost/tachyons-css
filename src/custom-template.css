@@ -4,32 +4,32 @@
     disables styles not relevant to the custom template
 */
 
-@import './normalize.css';
-@import './variables.css';
+@import "./normalize.css";
+@import "./variables.css";
 /* @import "./unstable-theme.css"; */
-@import './borders.css';
-@import './colors.css';
-@import './bg.css';
-@import './spacers/index.css';
+@import "./borders.css";
+@import "./colors.css";
+@import "./bg.css";
+@import "./spacers/index.css";
 /* @import "./header.css"; */
-@import './typography/index.css';
-@import './btn.css';
-@import './motion.css';
-@import './shadows.css';
-@import './box-shadows.css';
-@import './social.css';
-@import './widths.css';
-@import './heights.css';
-@import './fill.css';
-@import './grid.css';
-@import './aspect-ratio.css';
-@import './a11y.css';
+@import "./typography/index.css";
+@import "./btn.css";
+@import "./motion.css";
+@import "./shadows.css";
+@import "./box-shadows.css";
+@import "./social.css";
+@import "./widths.css";
+@import "./heights.css";
+@import "./fill.css";
+@import "./grid.css";
+@import "./aspect-ratio.css";
+@import "./a11y.css";
 /* @import "./shame.css"; */
-@import './input.css';
-@import './focus.css';
-@import './print.css';
-@import './overlay.css';
-@import './transforms.css';
-@import './animations.css';
-@import './tooltip.css';
-@import './random.css';
+@import "./input.css";
+@import "./focus.css";
+@import "./print.css";
+@import "./overlay.css";
+@import "./transforms.css";
+@import "./animations.css";
+@import "./tooltip.css";
+@import "./random.css";
