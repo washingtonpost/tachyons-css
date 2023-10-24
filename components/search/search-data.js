@@ -8949,11 +8949,7 @@
 		"css": [
 			{
 				"prop": "font-feature-settings",
-				"value": "\"normal\""
-			},
-			{
-				"prop": "color",
-				"value": "\"blue\""
+				"value": "normal"
 			}
 		],
 		"responsive": "all screens"

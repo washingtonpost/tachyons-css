@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/washingtonpost/tachyons-css/compare/v1.8.0...v1.9.0) (2023-10-20)
+
+
+### Features
+
+* update font family tokens ([#28](https://github.com/washingtonpost/tachyons-css/issues/28)) ([eee7afd](https://github.com/washingtonpost/tachyons-css/commit/eee7afd045c37b298a739a23424f20a3d9a39fef))
+
 ## [1.7.0](https://github.com/washingtonpost/tachyons-css/compare/v1.6.0...v1.7.0) (2023-04-11)
 
 
