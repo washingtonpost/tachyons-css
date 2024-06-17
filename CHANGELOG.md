@@ -1,3 +1,7 @@
+## 1.10.1
+
+* accidently published 1.10.0 without an updated build.
+
 ## [1.9.0](https://github.com/washingtonpost/tachyons-css/compare/v1.8.0...v1.9.0) (2023-10-20)
 
 
