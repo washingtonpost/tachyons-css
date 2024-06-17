@@ -5,6 +5,18 @@
 
 * update font family tokens ([#28](https://github.com/washingtonpost/tachyons-css/issues/28)) ([eee7afd](https://github.com/washingtonpost/tachyons-css/commit/eee7afd045c37b298a739a23424f20a3d9a39fef))
 
+## [1.10.0](https://github.com/washingtonpost/tachyons-css/compare/v1.9.0...v1.10.0) (2024-06-17)
+
+
+### Features
+
+* upgrade to kit 2.0.0 ([26bb36b](https://github.com/washingtonpost/tachyons-css/commit/26bb36b599e6f960e71543ac23cc3b84adb42149))
+
+
+### Bug Fixes
+
+* import to kit rather than theme ([84811a9](https://github.com/washingtonpost/tachyons-css/commit/84811a97b6444729540aebaa302772c34cda5769))
+
 ## [1.7.0](https://github.com/washingtonpost/tachyons-css/compare/v1.6.0...v1.7.0) (2023-04-11)
 
 
