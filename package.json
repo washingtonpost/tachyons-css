@@ -22,15 +22,6 @@
     "url": "https://github.com/washingtonpost/tachyons-css.git"
   },
   "author": "WPDS Support <wpds@washingtonpost.com>",
-  "dependencies": {
-    "@washingtonpost/icon-tokens": "latest",
-    "@washingtonpost/logo-tokens": "latest",
-    "@washingtonpost/motion-tokens": "latest",
-    "@washingtonpost/shadow-tokens": "latest",
-    "@washingtonpost/spacing-tokens": "latest",
-    "@washingtonpost/typography-tokens": "latest",
-    "@washingtonpost/wpds-ui-kit": "latest"
-  },
   "peerDependencies": {
     "@washingtonpost/icon-tokens": "latest",
     "@washingtonpost/logo-tokens": "latest",
@@ -38,10 +29,10 @@
     "@washingtonpost/shadow-tokens": "latest",
     "@washingtonpost/spacing-tokens": "latest",
     "@washingtonpost/typography-tokens": "latest",
-    "@washingtonpost/wpds-ui-kit": "latest"
+    "@washingtonpost/wpds-ui-kit": "^2.0.0"
   },
   "devDependencies": {
-    "@washingtonpost/wpds-ui-kit": "^1.14.0",
+    "@washingtonpost/wpds-ui-kit": "^2.0.0",
     "cssnano": "^5.1.15",
     "cssnano-preset-advanced": "^5.1.6",
     "fuse.js": "^6.5.3",
